@@ -531,6 +531,7 @@ function Library:RemoveFromRegistry(Instance)
 end;
 
 function Library:UpdateColorsUsingRegistry()
+    Library.AccentColorDark = Library:GetDarkerColor(Library.AccentColor);
     for Idx, Object in next, Library.Registry do
         for Property, ColorIdx in next, Object.Properties do
             if type(ColorIdx) == 'string' then
@@ -1551,7 +1552,7 @@ do
 
     BaseAddons.__index = Funcs;
     BaseAddons.__namecall = function(Table, Key, ...)
-        return Funcs[Key](...);
+        return Funcs[Key](Table, ...);
     end;
 end;
 
@@ -2169,6 +2170,10 @@ do
             Library:SafeCallback(Toggle.Callback, Toggle.Value);
             Library:SafeCallback(Toggle.Changed, Toggle.Value);
             Library:UpdateDependencyBoxes();
+        end;
+
+        function Toggle:Toggle()
+            Toggle:SetValue(not Toggle.Value);
         end;
         ToggleRegion.InputBegan:Connect(function(Input)
             if (Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch) and not Library:MouseIsOverOpenedFrame() then
@@ -2928,7 +2933,7 @@ do
 
     BaseGroupbox.__index = Funcs;
     BaseGroupbox.__namecall = function(Table, Key, ...)
-        return Funcs[Key](...);
+        return Funcs[Key](Table, ...);
     end;
 end;
 do
