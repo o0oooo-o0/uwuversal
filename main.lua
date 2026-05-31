@@ -93,33 +93,21 @@ local Library = {
     KeybindMode = 'All';
 
     NotifyConfig = {
-        Alignment  = 'Left';
-        BarSide    = 'Left';
-        PositionX  = 0;
-        PositionY  = 40;
-        Animation  = 'Default'; -- Default, Fade, Bounce, Elastic, Slide, Zoom, Flip, Spiral, Pulse, NoAnim
+        Alignment = 'Left';   -- 'Left' | 'Right' | 'Center'
+        BarSide   = 'Left';   -- 'Left' | 'Right' | 'Top' | 'Bottom'
+        PositionX = 0;
+        PositionY = 40;
+        Animation = 'Default'; -- 'Default'|'Fade'|'Bounce'|'Elastic'|'Slide'|'Zoom'|'Flip'|'Spiral'|'Pulse'|'NoAnim'
     };
 
-    -- TransparencyManager config
-    TransparencyConfig = {
-        MenuBackground = 0;
-        KeybindFrame   = 0;
-    };
+    -- Transparencies (set via sliders in groupboxes)
+    MenuBgTransparency      = 0;
+    KeybindTransparency     = 0;
 
-    -- Glow config
-    GlowConfig = {
-        Enabled    = false;
-        Color      = Color3.fromRGB(0, 85, 255);
-        Amount     = 10;
-    };
-
-    -- Tab bar alignment
-    TabBarConfig = {
-        Alignment = 'Top'; -- Top, Bottom, Left, Right
-        Padding   = 0;
-        SizeX     = nil; -- override tab button width
-        SizeY     = nil; -- override tab bar height (px)
-    };
+    -- Glow
+    GlowEnabled  = false;
+    GlowColor    = Color3.fromRGB(0, 85, 255);
+    GlowAmount   = 10;
 };
 
 Library.KeyPickerList = {};
@@ -2893,6 +2881,51 @@ do
         return Depbox;
     end;
 
+    -- ── AddTransparencySliders ───────────────────────────────────────────────
+    -- Adds two sliders to this groupbox:  Menu Background + Keybind Transparency
+    -- Usage: groupbox:AddTransparencySliders()
+    function Funcs:AddTransparencySliders()
+        self:AddSlider('__MenuBgAlpha', {
+            Text    = 'Menu Background';
+            Default = 0;
+            Min     = 0;
+            Max     = 100;
+            Rounding = 0;
+            Suffix  = '%';
+            Callback = function(v)
+                Library.MenuBgTransparency = v / 100
+                for _, entry in pairs(Library.Registry) do
+                    if entry.Object and entry.Properties then
+                        local prop = entry.Properties.BackgroundColor3
+                        if prop == 'MainColor' or prop == 'BackgroundColor' then
+                            pcall(function()
+                                entry.Object.BackgroundTransparency = Library.MenuBgTransparency
+                            end)
+                        end
+                    end
+                end
+            end;
+        })
+        self:AddSlider('__KeybindAlpha', {
+            Text    = 'Keybind Transparency';
+            Default = 0;
+            Min     = 0;
+            Max     = 100;
+            Rounding = 0;
+            Suffix  = '%';
+            Callback = function(v)
+                Library.KeybindTransparency = v / 100
+                if Library.KeybindFrame then
+                    for _, d in ipairs(Library.KeybindFrame:GetDescendants()) do
+                        if d:IsA('Frame') then
+                            pcall(function() d.BackgroundTransparency = Library.KeybindTransparency end)
+                        end
+                    end
+                end
+            end;
+        })
+    end
+
     BaseGroupbox.__index = Funcs;
     BaseGroupbox.__namecall = function(Table, Key, ...)
         return Funcs[Key](...);
@@ -3094,41 +3127,30 @@ function Library:Notify(Text, Time)
     local BAR_THIN  = 3
     local BAR_THICK = 3
 
-    local innerPosX  = 1
-    local innerPosY  = (barSide == 'Top') and BAR_THICK or 1
-    local innerSizeW = -2
+    local innerPosX  = (barSide == 'Left')   and 1 or 1
+    local innerPosY  = (barSide == 'Top')    and BAR_THICK or 1
+    local innerSizeW = (barSide == 'Left' or barSide == 'Right') and -2 or -2
     local innerSizeH = (barSide == 'Top' or barSide == 'Bottom') and -(BAR_THICK + 1) or -2
 
-    local labelPosX  = (barSide == 'Left') and BAR_THIN + 2 or 4
+    local labelPosX  = (barSide == 'Left')  and BAR_THIN + 2 or 4
     local labelSizeW = (barSide == 'Left' or barSide == 'Right') and -(BAR_THIN + 4) or -4
 
     local outerAnchor = Vector2.new(0, 0)
-    local outerPos
+    local outerPosX   = 0
     if align == 'Center' then
         outerAnchor = Vector2.new(0.5, 0)
-        outerPos    = UDim2.new(0.5, 0, 0, 0)
+        outerPosX   = 0
     elseif align == 'Right' then
         outerAnchor = Vector2.new(1, 0)
-        outerPos    = UDim2.new(1, 0, 0, 0)
-    else
-        outerPos    = UDim2.new(0, 0, 0, 0)
+        outerPosX   = 0
     end
-
-    local finalWidth = XSize + 8 + 4
-    if barSide == 'Left' or barSide == 'Right' then
-        finalWidth = finalWidth + BAR_THIN
-    end
-
-    -- Determine starting transparency for Fade/Zoom/Pulse
-    local startTransparency = 0
-    if anim == 'Fade' or anim == 'Zoom' or anim == 'Pulse' then startTransparency = 1 end
 
     local NotifyOuter = Library:Create('Frame', {
         BackgroundTransparency = 1;
         AnchorPoint = outerAnchor;
         BorderColor3 = Color3.new(0, 0, 0);
-        Position     = outerPos;
-        Size = UDim2.new(0, (anim == 'NoAnim') and finalWidth or 0, 0, YSize);
+        Position     = (function() if align == 'Center' then return UDim2.new(0.5, 0, 0, 0) elseif align == 'Right' then return UDim2.new(1, 0, 0, 0) else return UDim2.new(0, 0, 0, 0) end end)();
+        Size = UDim2.new(0, 0, 0, YSize);
         ClipsDescendants = true;
         ZIndex = 100;
         Parent = Library.NotificationArea;
@@ -3137,7 +3159,6 @@ function Library:Notify(Text, Time)
         BackgroundColor3 = Library.MainColor;
         BorderColor3 = Library.OutlineColor;
         BorderMode = Enum.BorderMode.Inset;
-        BackgroundTransparency = startTransparency;
         Size = UDim2.new(1, 0, 1, 0);
         ZIndex = 101;
         Parent = NotifyOuter;
@@ -3149,7 +3170,6 @@ function Library:Notify(Text, Time)
     local InnerFrame = Library:Create('Frame', {
         BackgroundColor3 = Color3.new(1, 1, 1);
         BorderSizePixel = 0;
-        BackgroundTransparency = startTransparency;
         Position = UDim2.new(0, innerPosX, 0, innerPosY);
         Size     = UDim2.new(1, innerSizeW, 1, innerSizeH);
         ZIndex = 102;
@@ -3173,7 +3193,6 @@ function Library:Notify(Text, Time)
     });
     local NotifyTopGlow = Library:Create('Frame', {
         BackgroundColor3 = Color3.new(1, 1, 1);
-        BackgroundTransparency = startTransparency;
         BorderSizePixel  = 0;
         Size             = UDim2.new(1, 0, 1, 0);
         ZIndex           = 102;
@@ -3191,7 +3210,6 @@ function Library:Notify(Text, Time)
         Position = UDim2.new(0, labelPosX, 0, 0);
         Size     = UDim2.new(1, labelSizeW, 1, 0);
         Text     = Text;
-        TextTransparency = startTransparency;
         TextXAlignment = (align == 'Center')
             and Enum.TextXAlignment.Center
             or  Enum.TextXAlignment.Left;
@@ -3201,7 +3219,7 @@ function Library:Notify(Text, Time)
     });
     local AccentBar = Library:Create('Frame', {
         BackgroundColor3 = Library.AccentColor;
-        BackgroundTransparency = startTransparency;
+        BackgroundTransparency = 1;
         BorderSizePixel  = 0;
         ZIndex           = 104;
         Parent           = NotifyOuter;
@@ -3224,11 +3242,10 @@ function Library:Notify(Text, Time)
     local _barGradRot = _isVertBar and 90 or 0
     local AccentBarL = Library:Create('Frame', {
         BackgroundColor3 = Library.AccentColor;
-        BackgroundTransparency = startTransparency;
         BorderSizePixel  = 0;
-        AnchorPoint      = _isVertBar and Vector2.new(0,1) or Vector2.new(1,0);
-        Position         = _isVertBar and UDim2.new(0,0,0.5,0) or UDim2.new(0.5,0,0,0);
-        Size             = _isVertBar and UDim2.new(1,0,0.5,0) or UDim2.new(0.5,0,1,0);
+        AnchorPoint      = (function() if _isVertBar then return Vector2.new(0, 1) else return Vector2.new(1, 0) end end)();
+        Position         = (function() if _isVertBar then return UDim2.new(0, 0, 0.5, 0) else return UDim2.new(0.5, 0, 0, 0) end end)();
+        Size             = (function() if _isVertBar then return UDim2.new(1, 0, 0.5, 0) else return UDim2.new(0.5, 0, 1, 0) end end)();
         ZIndex           = 105;
         Parent           = AccentBar;
     });
@@ -3242,11 +3259,10 @@ function Library:Notify(Text, Time)
     });
     local AccentBarR = Library:Create('Frame', {
         BackgroundColor3 = Library.AccentColor;
-        BackgroundTransparency = startTransparency;
         BorderSizePixel  = 0;
-        AnchorPoint      = Vector2.new(0, 0);
-        Position         = _isVertBar and UDim2.new(0,0,0.5,0) or UDim2.new(0.5,0,0,0);
-        Size             = _isVertBar and UDim2.new(1,0,0.5,0) or UDim2.new(0.5,0,1,0);
+        AnchorPoint      = (function() if _isVertBar then return Vector2.new(0, 0) else return Vector2.new(0, 0) end end)();
+        Position         = (function() if _isVertBar then return UDim2.new(0, 0, 0.5, 0) else return UDim2.new(0.5, 0, 0, 0) end end)();
+        Size             = (function() if _isVertBar then return UDim2.new(1, 0, 0.5, 0) else return UDim2.new(0.5, 0, 1, 0) end end)();
         ZIndex           = 105;
         Parent           = AccentBar;
     });
@@ -3261,83 +3277,104 @@ function Library:Notify(Text, Time)
     Library:AddToRegistry(AccentBar,  { BackgroundColor3 = 'AccentColor'; }, true);
     Library:AddToRegistry(AccentBarL, { BackgroundColor3 = 'AccentColor'; }, true);
     Library:AddToRegistry(AccentBarR, { BackgroundColor3 = 'AccentColor'; }, true);
-
-    -- Helper: fade all children in/out
-    local function FadeAll(transparency, duration)
-        local tweens = {}
-        local info = TweenInfo.new(duration or 0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-        local targets = {NotifyInner, InnerFrame, NotifyTopGlow, AccentBar, AccentBarL, AccentBarR}
-        for _, t in ipairs(targets) do
-            table.insert(tweens, TweenService:Create(t, info, {BackgroundTransparency = transparency}))
-        end
-        table.insert(tweens, TweenService:Create(NotifyLabel, info, {TextTransparency = transparency}))
-        for _, tw in ipairs(tweens) do tw:Play() end
-        return tweens
+    local finalWidth = XSize + 8 + 4
+    if barSide == 'Left' or barSide == 'Right' then
+        finalWidth = finalWidth + BAR_THIN
     end
 
-    -- ── ENTER ANIMATION ──────────────────────────────────────────────────────
+    -- helper: fade all notification parts in/out
+    local function FadeNotif(transparency, duration)
+        local info = TweenInfo.new(duration or 0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+        for _, obj in ipairs({NotifyInner, InnerFrame, NotifyTopGlow, AccentBar, AccentBarL, AccentBarR}) do
+            TweenService:Create(obj, info, {BackgroundTransparency = transparency}):Play()
+        end
+        TweenService:Create(NotifyLabel, info, {TextTransparency = transparency}):Play()
+    end
+
+    -- ── ENTER ────────────────────────────────────────────────────────────────
     task.spawn(function()
         if anim == 'NoAnim' then
-            -- already full size, nothing to do
+            NotifyOuter.Size = UDim2.new(0, finalWidth, 0, YSize)
 
         elseif anim == 'Fade' then
             NotifyOuter.Size = UDim2.new(0, finalWidth, 0, YSize)
-            FadeAll(0, 0.35)
-
-        elseif anim == 'Zoom' then
-            NotifyOuter.Size = UDim2.new(0, finalWidth * 0.4, 0, YSize * 0.4)
-            NotifyOuter.BackgroundTransparency = 1
-            FadeAll(0, 0.3)
-            TweenService:Create(NotifyOuter, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out),
-                {Size = UDim2.new(0, finalWidth, 0, YSize)}):Play()
+            NotifyInner.BackgroundTransparency = 1
+            InnerFrame.BackgroundTransparency = 1
+            NotifyTopGlow.BackgroundTransparency = 1
+            AccentBar.BackgroundTransparency = 1
+            AccentBarL.BackgroundTransparency = 1
+            AccentBarR.BackgroundTransparency = 1
+            NotifyLabel.TextTransparency = 1
+            FadeNotif(0, 0.35)
 
         elseif anim == 'Bounce' then
-            -- swipe in then bounce at end
             local offX = (align == 'Right') and finalWidth or -finalWidth
-            NotifyOuter.Position = UDim2.new(outerPos.X.Scale, offX, outerPos.Y.Scale, 0)
-            NotifyOuter.Size     = UDim2.new(0, finalWidth, 0, YSize)
-            TweenService:Create(NotifyOuter, TweenInfo.new(0.45, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out),
-                {Position = outerPos}):Play()
+            NotifyOuter.Size = UDim2.new(0, finalWidth, 0, YSize)
+            NotifyOuter.Position = UDim2.new(
+                NotifyOuter.Position.X.Scale, offX,
+                NotifyOuter.Position.Y.Scale, NotifyOuter.Position.Y.Offset)
+            TweenService:Create(NotifyOuter, TweenInfo.new(0.5, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out),
+                {Position = UDim2.new(NotifyOuter.Position.X.Scale, 0, NotifyOuter.Position.Y.Scale, NotifyOuter.Position.Y.Offset)}):Play()
 
         elseif anim == 'Elastic' then
             local offX = (align == 'Right') and finalWidth or -finalWidth
-            NotifyOuter.Position = UDim2.new(outerPos.X.Scale, offX, outerPos.Y.Scale, 0)
-            NotifyOuter.Size     = UDim2.new(0, finalWidth, 0, YSize)
-            TweenService:Create(NotifyOuter, TweenInfo.new(0.55, Enum.EasingStyle.Elastic, Enum.EasingDirection.Out),
-                {Position = outerPos}):Play()
+            NotifyOuter.Size = UDim2.new(0, finalWidth, 0, YSize)
+            NotifyOuter.Position = UDim2.new(
+                NotifyOuter.Position.X.Scale, offX,
+                NotifyOuter.Position.Y.Scale, NotifyOuter.Position.Y.Offset)
+            TweenService:Create(NotifyOuter, TweenInfo.new(0.6, Enum.EasingStyle.Elastic, Enum.EasingDirection.Out),
+                {Position = UDim2.new(NotifyOuter.Position.X.Scale, 0, NotifyOuter.Position.Y.Scale, NotifyOuter.Position.Y.Offset)}):Play()
 
         elseif anim == 'Slide' then
-            -- slide from top
-            NotifyOuter.Position = UDim2.new(outerPos.X.Scale, outerPos.X.Offset, -0.05, 0)
-            NotifyOuter.Size     = UDim2.new(0, finalWidth, 0, YSize)
+            NotifyOuter.Size = UDim2.new(0, finalWidth, 0, YSize)
+            local origY = NotifyOuter.Position.Y.Offset
+            NotifyOuter.Position = UDim2.new(NotifyOuter.Position.X.Scale, NotifyOuter.Position.X.Offset, 0, -YSize - 10)
             TweenService:Create(NotifyOuter, TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-                {Position = outerPos}):Play()
+                {Position = UDim2.new(NotifyOuter.Position.X.Scale, NotifyOuter.Position.X.Offset, 0, origY)}):Play()
+
+        elseif anim == 'Zoom' then
+            NotifyOuter.Size = UDim2.new(0, 4, 0, 4)
+            NotifyInner.BackgroundTransparency = 1
+            InnerFrame.BackgroundTransparency = 1
+            NotifyTopGlow.BackgroundTransparency = 1
+            AccentBar.BackgroundTransparency = 1
+            AccentBarL.BackgroundTransparency = 1
+            AccentBarR.BackgroundTransparency = 1
+            NotifyLabel.TextTransparency = 1
+            FadeNotif(0, 0.25)
+            TweenService:Create(NotifyOuter, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out),
+                {Size = UDim2.new(0, finalWidth, 0, YSize)}):Play()
 
         elseif anim == 'Flip' then
-            -- horizontal expand from center
             NotifyOuter.Size = UDim2.new(0, 2, 0, YSize)
             TweenService:Create(NotifyOuter, TweenInfo.new(0.3, Enum.EasingStyle.Back, Enum.EasingDirection.Out),
                 {Size = UDim2.new(0, finalWidth, 0, YSize)}):Play()
 
         elseif anim == 'Spiral' then
-            -- expand width then height
             NotifyOuter.Size = UDim2.new(0, finalWidth, 0, 2)
-            TweenService:Create(NotifyOuter, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-                {Size = UDim2.new(0, finalWidth, 0, YSize)}):Play()
-
-        elseif anim == 'Pulse' then
-            NotifyOuter.Size = UDim2.new(0, finalWidth * 1.2, 0, YSize * 1.2)
-            FadeAll(0, 0.2)
             TweenService:Create(NotifyOuter, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
                 {Size = UDim2.new(0, finalWidth, 0, YSize)}):Play()
 
-        else -- Default: swipe/expand
+        elseif anim == 'Pulse' then
+            NotifyOuter.Size = UDim2.new(0, finalWidth * 1.3, 0, YSize * 1.3)
+            NotifyInner.BackgroundTransparency = 1
+            InnerFrame.BackgroundTransparency = 1
+            NotifyTopGlow.BackgroundTransparency = 1
+            AccentBar.BackgroundTransparency = 1
+            AccentBarL.BackgroundTransparency = 1
+            AccentBarR.BackgroundTransparency = 1
+            NotifyLabel.TextTransparency = 1
+            FadeNotif(0, 0.2)
+            TweenService:Create(NotifyOuter, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                {Size = UDim2.new(0, finalWidth, 0, YSize)}):Play()
+
+        else -- Default: original swipe expand
             pcall(NotifyOuter.TweenSize, NotifyOuter,
                 UDim2.new(0, finalWidth, 0, YSize), 'Out', 'Quad', 0.4, true)
         end
     end)
 
-    -- ── EXIT ANIMATION ───────────────────────────────────────────────────────
+    -- ── EXIT ─────────────────────────────────────────────────────────────────
     task.spawn(function()
         wait(Time or 5)
 
@@ -3345,28 +3382,28 @@ function Library:Notify(Text, Time)
             NotifyOuter:Destroy()
 
         elseif anim == 'Fade' then
-            FadeAll(1, 0.3)
-            wait(0.35)
-            NotifyOuter:Destroy()
-
-        elseif anim == 'Zoom' then
-            FadeAll(1, 0.25)
-            TweenService:Create(NotifyOuter, TweenInfo.new(0.3, Enum.EasingStyle.Back, Enum.EasingDirection.In),
-                {Size = UDim2.new(0, finalWidth * 0.3, 0, YSize * 0.3)}):Play()
+            FadeNotif(1, 0.3)
             wait(0.35)
             NotifyOuter:Destroy()
 
         elseif anim == 'Bounce' or anim == 'Elastic' then
             local offX = (align == 'Right') and finalWidth or -finalWidth
             TweenService:Create(NotifyOuter, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
-                {Position = UDim2.new(outerPos.X.Scale, offX, outerPos.Y.Scale, 0)}):Play()
+                {Position = UDim2.new(NotifyOuter.Position.X.Scale, offX, NotifyOuter.Position.Y.Scale, NotifyOuter.Position.Y.Offset)}):Play()
             wait(0.35)
             NotifyOuter:Destroy()
 
         elseif anim == 'Slide' then
             TweenService:Create(NotifyOuter, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
-                {Position = UDim2.new(outerPos.X.Scale, outerPos.X.Offset, -0.06, 0)}):Play()
+                {Position = UDim2.new(NotifyOuter.Position.X.Scale, NotifyOuter.Position.X.Offset, 0, -YSize - 20)}):Play()
             wait(0.35)
+            NotifyOuter:Destroy()
+
+        elseif anim == 'Zoom' then
+            FadeNotif(1, 0.2)
+            TweenService:Create(NotifyOuter, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.In),
+                {Size = UDim2.new(0, 4, 0, 4)}):Play()
+            wait(0.3)
             NotifyOuter:Destroy()
 
         elseif anim == 'Flip' or anim == 'Spiral' then
@@ -3376,8 +3413,8 @@ function Library:Notify(Text, Time)
             NotifyOuter:Destroy()
 
         elseif anim == 'Pulse' then
-            FadeAll(1, 0.25)
-            wait(0.3)
+            FadeNotif(1, 0.2)
+            wait(0.25)
             NotifyOuter:Destroy()
 
         else -- Default
@@ -3388,184 +3425,6 @@ function Library:Notify(Text, Time)
         end
     end)
 end;
-
--- ══════════════════════════════════════════════════════════════════
--- TransparencyManager  (Library:CreateTransparencyManager())
--- Creates a floating Groupbox with Menu Background + Keybind sliders
--- ══════════════════════════════════════════════════════════════════
-function Library:CreateTransparencyManager()
-    local mgr = {}
-
-    local Outer = Library:Create('Frame', {
-        Name             = 'TransparencyManager';
-        BackgroundColor3 = Library.MainColor;
-        BorderColor3     = Library.OutlineColor;
-        BorderMode       = Enum.BorderMode.Inset;
-        Position         = UDim2.fromOffset(20, 80);
-        Size             = UDim2.fromOffset(220, 90);
-        ZIndex           = 200;
-        Visible          = true;
-        Parent           = ScreenGui;
-    });
-    Library:AddToRegistry(Outer, { BackgroundColor3='MainColor'; BorderColor3='OutlineColor'; });
-    Library:MakeDraggable(Outer, 20);
-
-    local Title = Library:CreateLabel({
-        Position = UDim2.new(0, 6, 0, 2);
-        Size     = UDim2.new(1, -6, 0, 16);
-        Text     = 'Transparency';
-        TextXAlignment = Enum.TextXAlignment.Left;
-        ZIndex   = 201;
-        Parent   = Outer;
-    });
-
-    local function MakeSlider(labelText, yPos, getVal, setVal)
-        local lbl = Library:CreateLabel({
-            Position = UDim2.new(0, 6, 0, yPos);
-            Size     = UDim2.new(0.55, 0, 0, 14);
-            Text     = labelText;
-            TextXAlignment = Enum.TextXAlignment.Left;
-            ZIndex   = 202;
-            Parent   = Outer;
-        });
-        local Track = Library:Create('Frame', {
-            BackgroundColor3 = Library.BackgroundColor;
-            BorderColor3     = Library.OutlineColor;
-            Position         = UDim2.new(0, 6, 0, yPos + 16);
-            Size             = UDim2.new(1, -12, 0, 8);
-            ZIndex           = 202;
-            Parent           = Outer;
-        });
-        Library:AddToRegistry(Track, { BackgroundColor3='BackgroundColor'; BorderColor3='OutlineColor'; });
-        local Fill = Library:Create('Frame', {
-            BackgroundColor3 = Library.AccentColor;
-            BorderSizePixel  = 0;
-            Size             = UDim2.new(1 - getVal(), 0, 1, 0);
-            ZIndex           = 203;
-            Parent           = Track;
-        });
-        Library:AddToRegistry(Fill, { BackgroundColor3='AccentColor'; });
-
-        local dragging = false
-        local function Update(x)
-            local rel = math.clamp((x - Track.AbsolutePosition.X) / Track.AbsoluteSize.X, 0, 1)
-            Fill.Size = UDim2.new(rel, 0, 1, 0)
-            setVal(1 - rel)
-        end
-        Track.InputBegan:Connect(function(i)
-            if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
-                dragging = true
-                Update(i.Position.X)
-            end
-        end)
-        InputService.InputChanged:Connect(function(i)
-            if dragging and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
-                Update(i.Position.X)
-            end
-        end)
-        InputService.InputEnded:Connect(function(i)
-            if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
-                dragging = false
-            end
-        end)
-    end
-
-    MakeSlider('Menu Background', 20,
-        function() return Library.TransparencyConfig.MenuBackground end,
-        function(v)
-            Library.TransparencyConfig.MenuBackground = v
-            -- Apply to all registered MainColor frames
-            for _, entry in pairs(Library.Registry) do
-                if entry.Object and entry.Properties and entry.Properties.BackgroundColor3 == 'MainColor' then
-                    pcall(function() entry.Object.BackgroundTransparency = v end)
-                end
-            end
-        end
-    )
-    MakeSlider('Keybind Frame', 54,
-        function() return Library.TransparencyConfig.KeybindFrame end,
-        function(v)
-            Library.TransparencyConfig.KeybindFrame = v
-            if Library.KeybindFrame then
-                pcall(function()
-                    for _, d in pairs(Library.KeybindFrame:GetDescendants()) do
-                        if d:IsA('Frame') then pcall(function() d.BackgroundTransparency = v end) end
-                    end
-                end)
-            end
-        end
-    )
-
-    function mgr:SetMenuBgTransparency(v)
-        Library.TransparencyConfig.MenuBackground = v
-    end
-    function mgr:SetKeybindTransparency(v)
-        Library.TransparencyConfig.KeybindFrame = v
-    end
-    function mgr:SetVisible(bool)
-        Outer.Visible = bool
-    end
-
-    Library.TransparencyManager = mgr
-    return mgr
-end;
-
--- ══════════════════════════════════════════════════════════════════
--- GlowManager  (Library:CreateGlowManager())
--- Toggleable UI glow on the main window
--- ══════════════════════════════════════════════════════════════════
-function Library:CreateGlowManager(targetFrame)
-    local gm = {}
-    local glowFrame = nil
-
-    local function BuildGlow()
-        if glowFrame then glowFrame:Destroy() end
-        glowFrame = Library:Create('ImageLabel', {
-            Name                 = 'UIGlow';
-            BackgroundTransparency = 1;
-            Image                = 'rbxassetid://7912134082';  -- soft radial glow asset
-            ImageColor3          = Library.GlowConfig.Color;
-            ImageTransparency    = 1 - (Library.GlowConfig.Amount / 20);
-            ScaleType            = Enum.ScaleType.Slice;
-            SliceCenter          = Rect.new(50,50,450,450);
-            AnchorPoint          = Vector2.new(0.5, 0.5);
-            Position             = UDim2.new(0.5, 0, 0.5, 0);
-            Size                 = UDim2.new(1, Library.GlowConfig.Amount * 4, 1, Library.GlowConfig.Amount * 4);
-            ZIndex               = 0;
-            Parent               = targetFrame;
-        });
-    end
-
-    function gm:SetEnabled(bool)
-        Library.GlowConfig.Enabled = bool
-        if bool then
-            BuildGlow()
-        elseif glowFrame then
-            glowFrame:Destroy()
-            glowFrame = nil
-        end
-    end
-    function gm:SetColor(color)
-        Library.GlowConfig.Color = color
-        if glowFrame then glowFrame.ImageColor3 = color end
-    end
-    function gm:SetAmount(amount)
-        Library.GlowConfig.Amount = amount
-        if Library.GlowConfig.Enabled then BuildGlow() end
-    end
-
-    if Library.GlowConfig.Enabled then BuildGlow() end
-    Library.GlowManager = gm
-    return gm
-end;
-
--- ══════════════════════════════════════════════════════════════════
--- SetTitle  –  live animated title setter
--- Usage: Window:SetTitle("Hello", "Slide")
--- Animations: Slide (default), Fade, TypeWriter, Bounce, Flash, None
--- ══════════════════════════════════════════════════════════════════
--- (Attached to Window in CreateWindow; stub here so it's documented)
--- The real implementation is injected into each Window below.
 
 function Library:CreateWindow(...)
     local Arguments = { ... }
@@ -3715,25 +3574,25 @@ function Library:CreateWindow(...)
         WindowLabel.Text = Title;
     end;
 
-    -- Centered title
+    -- ── Centered title ──────────────────────────────────────────────────────
     function Window:SetTitleCentered(bool)
         WindowLabel.TextXAlignment = bool
             and Enum.TextXAlignment.Center
             or  Enum.TextXAlignment.Left
-    end;
+    end
 
-    -- Live animated title (SetTitle)
-    -- anim: 'Slide'|'Fade'|'TypeWriter'|'Bounce'|'Flash'|'None'
+    -- ── Live animated title ─────────────────────────────────────────────────
+    -- anim: 'None'|'Slide'|'Fade'|'TypeWriter'|'Bounce'|'Flash'
     function Window:SetTitle(text, animType)
         animType = animType or 'Slide'
         local lbl = WindowLabel
         if animType == 'None' then
             lbl.Text = text
         elseif animType == 'Fade' then
-            TweenService:Create(lbl, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {TextTransparency=1}):Play()
+            TweenService:Create(lbl, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {TextTransparency=1}):Play()
             task.delay(0.16, function()
                 lbl.Text = text
-                TweenService:Create(lbl, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {TextTransparency=0}):Play()
+                TweenService:Create(lbl, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextTransparency=0}):Play()
             end)
         elseif animType == 'Flash' then
             local orig = lbl.TextColor3
@@ -3752,45 +3611,35 @@ function Library:CreateWindow(...)
             end)
         elseif animType == 'Bounce' then
             local origPos = lbl.Position
-            TweenService:Create(lbl, TweenInfo.new(0.12, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-                {Position = origPos + UDim2.fromOffset(0, -4)}):Play()
-            task.delay(0.13, function()
+            TweenService:Create(lbl, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                {Position = origPos + UDim2.fromOffset(0, -5)}):Play()
+            task.delay(0.11, function()
                 lbl.Text = text
-                TweenService:Create(lbl, TweenInfo.new(0.2, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out),
+                TweenService:Create(lbl, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out),
                     {Position = origPos}):Play()
             end)
         else -- Slide
-            TweenService:Create(lbl, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
-                {Position = lbl.Position + UDim2.fromOffset(12, 0), TextTransparency=1}):Play()
-            task.delay(0.16, function()
+            local origPos = lbl.Position
+            TweenService:Create(lbl, TweenInfo.new(0.12, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+                {Position = origPos + UDim2.fromOffset(10, 0), TextTransparency=1}):Play()
+            task.delay(0.13, function()
                 lbl.Text = text
-                local target = lbl.Position - UDim2.fromOffset(12, 0)
-                lbl.Position = lbl.Position - UDim2.fromOffset(24, 0)
-                TweenService:Create(lbl, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-                    {Position = target, TextTransparency=0}):Play()
+                lbl.Position = origPos - UDim2.fromOffset(10, 0)
+                TweenService:Create(lbl, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {Position = origPos, TextTransparency=0}):Play()
             end)
         end
-    end;
+    end
 
-    -- Tab bar configuration
-    -- Library.TabBarConfig.Alignment: 'Top'|'Bottom'|'Left'|'Right'
+    -- ── Tab bar position ────────────────────────────────────────────────────
+    -- side: 'Top'|'Bottom'|'Left'|'Right'
     function Window:SetTabAlignment(side)
-        side = side or 'Top'
-        Library.TabBarConfig.Alignment = side
-        local tbcfg = Library.TabBarConfig
-
-        -- Reset
-        TabBarOuter.Position  = UDim2.new(0, 8, 0, 25)
-        TabBarOuter.Size      = UDim2.new(1, -16, 0, 29)
-        MainSectionOuter.Position = UDim2.new(0, 8, 0, 58)
-        MainSectionOuter.Size     = UDim2.new(1, -16, 1, -66)
-        TabListLayout.FillDirection = Enum.FillDirection.Horizontal
-
         if side == 'Bottom' then
-            TabBarOuter.Position  = UDim2.new(0, 8, 1, -(29 + 8))
+            TabBarOuter.Position  = UDim2.new(0, 8, 1, -(29+8))
             TabBarOuter.Size      = UDim2.new(1, -16, 0, 29)
             MainSectionOuter.Position = UDim2.new(0, 8, 0, 30)
-            MainSectionOuter.Size     = UDim2.new(1, -16, 1, -(29 + 8 + 30))
+            MainSectionOuter.Size     = UDim2.new(1, -16, 1, -(29+8+30))
+            TabListLayout.FillDirection = Enum.FillDirection.Horizontal
         elseif side == 'Left' then
             TabBarOuter.Position  = UDim2.new(0, 8, 0, 28)
             TabBarOuter.Size      = UDim2.new(0, 80, 1, -36)
@@ -3803,31 +3652,60 @@ function Library:CreateWindow(...)
             MainSectionOuter.Position = UDim2.new(0, 8, 0, 28)
             MainSectionOuter.Size     = UDim2.new(1, -(96+8), 1, -36)
             TabListLayout.FillDirection = Enum.FillDirection.Vertical
+        else -- Top (default)
+            TabBarOuter.Position  = UDim2.new(0, 8, 0, 25)
+            TabBarOuter.Size      = UDim2.new(1, -16, 0, 29)
+            MainSectionOuter.Position = UDim2.new(0, 8, 0, 58)
+            MainSectionOuter.Size     = UDim2.new(1, -16, 1, -66)
+            TabListLayout.FillDirection = Enum.FillDirection.Horizontal
         end
-    end;
+    end
 
+    -- ── Tab spacing ─────────────────────────────────────────────────────────
     function Window:SetTabPadding(px)
         TabListLayout.Padding = UDim.new(0, px)
-        Library.TabBarConfig.Padding = px
-    end;
+    end
 
+    -- ── Tab button size override ─────────────────────────────────────────────
+    -- x = width px (nil = keep auto), y = height px (nil = keep auto)
     function Window:SetTabSize(x, y)
-        Library.TabBarConfig.SizeX = x
-        Library.TabBarConfig.SizeY = y
-        -- resize all existing tab buttons
-        for _, btn in pairs(TabArea:GetChildren()) do
+        for _, btn in ipairs(TabArea:GetChildren()) do
             if btn:IsA('Frame') then
+                local cx = x and UDim2.new(0, x, btn.Size.Y.Scale, btn.Size.Y.Offset)
+                              or btn.Size
                 if x then btn.Size = UDim2.new(0, x, btn.Size.Y.Scale, btn.Size.Y.Offset) end
                 if y then btn.Size = UDim2.new(btn.Size.X.Scale, btn.Size.X.Offset, 0, y) end
             end
         end
-    end;
+    end
 
-    -- Expose GlowManager shortcut
-    function Window:CreateGlowManager()
-        return Library:CreateGlowManager(Outer)
-    end;
+    -- ── UI Glow ─────────────────────────────────────────────────────────────
+    -- Returns a controller {SetEnabled, SetColor, SetAmount}
+    function Window:SetGlow(enabled, color, amount)
+        Library.GlowEnabled = enabled ~= nil and enabled or Library.GlowEnabled
+        Library.GlowColor   = color  or Library.GlowColor
+        Library.GlowAmount  = amount or Library.GlowAmount
 
+        -- remove old glow
+        local existing = Outer:FindFirstChild('__UIGlow')
+        if existing then existing:Destroy() end
+
+        if not Library.GlowEnabled then return end
+
+        local gl = Instance.new('ImageLabel')
+        gl.Name = '__UIGlow'
+        gl.BackgroundTransparency = 1
+        gl.Image = 'rbxassetid://7912134082'
+        gl.ImageColor3 = Library.GlowColor
+        gl.ImageTransparency = 1 - (Library.GlowAmount / 20)
+        gl.ScaleType = Enum.ScaleType.Slice
+        gl.SliceCenter = Rect.new(50,50,450,450)
+        gl.AnchorPoint = Vector2.new(0.5, 0.5)
+        gl.Position = UDim2.new(0.5, 0, 0.5, 0)
+        gl.Size = UDim2.new(1, Library.GlowAmount * 5, 1, Library.GlowAmount * 5)
+        gl.ZIndex = 0
+        gl.Parent = Outer
+    end
     function Window:AddTab(Name)
         local Tab = {
             Groupboxes = {};
