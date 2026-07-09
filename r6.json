@@ -1,0 +1,5910 @@
+[
+    {
+        "name": "TheCharleston",
+        "id": "rbxassetid://429703734"
+    },
+    {
+        "name": "JumpingJacks",
+        "id": "rbxassetid://429681631"
+    },
+    {
+        "name": "LookDown&Examine",
+        "id": "rbxassetid://420461070"
+    },
+    {
+        "name": "Hold&RaiseArms",
+        "id": "rbxassetid://420406849"
+    },
+    {
+        "name": "EggBeater-Swing",
+        "id": "rbxassetid://377385068"
+    },
+    {
+        "name": "OverseerHammer-Swing",
+        "id": "rbxassetid://334753747"
+    },
+    {
+        "name": "OverseerHammer-Equip",
+        "id": "rbxassetid://334752168"
+    },
+    {
+        "name": "DualWieldLunge",
+        "id": "rbxassetid://334661867"
+    },
+    {
+        "name": "DualWieldHold",
+        "id": "rbxassetid://334659285"
+    },
+    {
+        "name": "DualWieldSlash",
+        "id": "rbxassetid://334658585"
+    },
+    {
+        "name": "Sleigh-SitPose",
+        "id": "rbxassetid://327324663"
+    },
+    {
+        "name": "Horse-Ride",
+        "id": "rbxassetid://321277423"
+    },
+    {
+        "name": "Horse-Walk",
+        "id": "rbxassetid://321225258"
+    },
+    {
+        "name": "Club-Hold",
+        "id": "rbxassetid://317460113"
+    },
+    {
+        "name": "DualHatchets-Throw",
+        "id": "rbxassetid://317449706"
+    },
+    {
+        "name": "PieLanucher",
+        "id": "rbxassetid://316642563"
+    },
+    {
+        "name": "DualAxes-OutwardDoubleSlash",
+        "id": "rbxassetid://315466978"
+    },
+    {
+        "name": "DualAxes-Equip",
+        "id": "rbxassetid://315464872"
+    },
+    {
+        "name": "Briefcase-Throw",
+        "id": "rbxassetid://314726307"
+    },
+    {
+        "name": "ViewMaster-HoldDiskOut",
+        "id": "rbxassetid://313776454"
+    },
+    {
+        "name": "View-Master-Hover",
+        "id": "rbxassetid://313762630"
+    },
+    {
+        "name": "View-Master-Hold",
+        "id": "rbxassetid://313735596"
+    },
+    {
+        "name": "View-Master-InsertDisk",
+        "id": "rbxassetid://313724674"
+    },
+    {
+        "name": "Throw",
+        "id": "rbxassetid://313060411"
+    },
+    {
+        "name": "Slasher-OppositeSlash",
+        "id": "rbxassetid://306490611"
+    },
+    {
+        "name": "Scythe-Slice",
+        "id": "rbxassetid://306452297"
+    },
+    {
+        "name": "Scythe-Cut",
+        "id": "rbxassetid://306451377"
+    },
+    {
+        "name": "Scythe-SpinSlash",
+        "id": "rbxassetid://306450253"
+    },
+    {
+        "name": "Scythe-Slash2",
+        "id": "rbxassetid://306414428"
+    },
+    {
+        "name": "Scythe-Hold",
+        "id": "rbxassetid://306352073"
+    },
+    {
+        "name": "VampireHunterCrossbow-AxeSlash",
+        "id": "rbxassetid://301983042"
+    },
+    {
+        "name": "CrayolaCrayon-Trace",
+        "id": "rbxassetid://299246734"
+    },
+    {
+        "name": "CrayolaCrayon-HoldStencil",
+        "id": "rbxassetid://299225058"
+    },
+    {
+        "name": "MorningStar-CenterSwing",
+        "id": "rbxassetid://297778466"
+    },
+    {
+        "name": "MorningStar-RightSwing",
+        "id": "rbxassetid://297764418"
+    },
+    {
+        "name": "MorningStar-LeftSwing",
+        "id": "rbxassetid://297764233"
+    },
+    {
+        "name": "Throw",
+        "id": "rbxassetid://289897637"
+    },
+    {
+        "name": "HorseFall",
+        "id": "rbxassetid://289878116"
+    },
+    {
+        "name": "HorseJump",
+        "id": "rbxassetid://289877829"
+    },
+    {
+        "name": "HorseRide",
+        "id": "rbxassetid://289454972"
+    },
+    {
+        "name": "HorseWalk",
+        "id": "rbxassetid://289443727"
+    },
+    {
+        "name": "SpecialPose",
+        "id": "rbxassetid://289338750"
+    },
+    {
+        "name": "RevolverReload",
+        "id": "rbxassetid://287396044"
+    },
+    {
+        "name": "RevolverIdle",
+        "id": "rbxassetid://287388049"
+    },
+    {
+        "name": "RevolverShoot",
+        "id": "rbxassetid://287387833"
+    },
+    {
+        "name": "Grapple-Crouch",
+        "id": "rbxassetid://287325678"
+    },
+    {
+        "name": "Sword-Lunge",
+        "id": "rbxassetid://285965988"
+    },
+    {
+        "name": "Sword-LeftSlash",
+        "id": "rbxassetid://285552468"
+    },
+    {
+        "name": "Sword-RightSlash",
+        "id": "rbxassetid://285551640"
+    },
+    {
+        "name": "LaserRifle-UsingScope",
+        "id": "rbxassetid://283545583"
+    },
+    {
+        "name": "LaserRifle-Equip",
+        "id": "rbxassetid://283119655"
+    },
+    {
+        "name": "PlayerFlailing",
+        "id": "rbxassetid://282574440"
+    },
+    {
+        "name": "CastSpell-Blast",
+        "id": "rbxassetid://277780975"
+    },
+    {
+        "name": "LaserRifle-Fire",
+        "id": "rbxassetid://277780478"
+    },
+    {
+        "name": "DINOGRENADE",
+        "id": "rbxassetid://277345130"
+    },
+    {
+        "name": "Crossbow-Slash",
+        "id": "rbxassetid://277172616"
+    },
+    {
+        "name": "Crossbow-Equip",
+        "id": "rbxassetid://277003236"
+    },
+    {
+        "name": "IceSword-Idle",
+        "id": "rbxassetid://276357624"
+    },
+    {
+        "name": "KnifePen-ReleaseCharge&amp;Throw",
+        "id": "rbxassetid://273187396"
+    },
+    {
+        "name": "KnifePen-HoldCharge",
+        "id": "rbxassetid://273186929"
+    },
+    {
+        "name": "KnifePen-ChargeThrow",
+        "id": "rbxassetid://273186758"
+    },
+    {
+        "name": "KnifePen-RemoveCap",
+        "id": "rbxassetid://273159186"
+    },
+    {
+        "name": "Cough",
+        "id": "rbxassetid://272761516"
+    },
+    {
+        "name": "Sword-Summon",
+        "id": "rbxassetid://268569955"
+    },
+    {
+        "name": "Phone-Call",
+        "id": "rbxassetid://268490758"
+    },
+    {
+        "name": "Car-IdlePose",
+        "id": "rbxassetid://264034706"
+    },
+    {
+        "name": "Guitar-Pluck",
+        "id": "rbxassetid://263586627"
+    },
+    {
+        "name": "AmericaSword-ReleaseCharge",
+        "id": "rbxassetid://262309036"
+    },
+    {
+        "name": "ATV-Equip",
+        "id": "rbxassetid://260671046"
+    },
+    {
+        "name": "DualPlungers-Hold",
+        "id": "rbxassetid://259440107"
+    },
+    {
+        "name": "DualPlungers-Spin",
+        "id": "rbxassetid://259438880"
+    },
+    {
+        "name": "Flying-Looped",
+        "id": "rbxassetid://257279573"
+    },
+    {
+        "name": "Shield-Hold",
+        "id": "rbxassetid://255644024"
+    },
+    {
+        "name": "Kusarigama-Swing",
+        "id": "rbxassetid://253338514"
+    },
+    {
+        "name": "Kusarigama-Hold",
+        "id": "rbxassetid://253205777"
+    },
+    {
+        "name": "InfiniteRunnerRun",
+        "id": "rbxassetid://252557606"
+    },
+    {
+        "name": "GameController-Hold",
+        "id": "rbxassetid://252551819"
+    },
+    {
+        "name": "NinjaClaw-ReleaseCharge",
+        "id": "rbxassetid://252395746"
+    },
+    {
+        "name": "NinjaClaw-ChargeLoop",
+        "id": "rbxassetid://252395365"
+    },
+    {
+        "name": "NinjaClaw-Slash",
+        "id": "rbxassetid://252390165"
+    },
+    {
+        "name": "Heather'sAxe-Bash",
+        "id": "rbxassetid://251075391"
+    },
+    {
+        "name": "Heather'sAxe-Slice",
+        "id": "rbxassetid://251071344"
+    },
+    {
+        "name": "Heather'sAxe-Slash",
+        "id": "rbxassetid://251056488"
+    },
+    {
+        "name": "Bloxikin-Climb",
+        "id": "rbxassetid://248336677"
+    },
+    {
+        "name": "Bloxikin-Sit",
+        "id": "rbxassetid://248336459"
+    },
+    {
+        "name": "Bloxikin-Jump",
+        "id": "rbxassetid://248336294"
+    },
+    {
+        "name": "Bloxikin-Fall",
+        "id": "rbxassetid://248336163"
+    },
+    {
+        "name": "Bloxikin-Walk",
+        "id": "rbxassetid://248335946"
+    },
+    {
+        "name": "Bloxikin-Idle",
+        "id": "rbxassetid://248332713"
+    },
+    {
+        "name": "Lightsaber-Swipe",
+        "id": "rbxassetid://247748354"
+    },
+    {
+        "name": "Lightsaber-SidestepSpin",
+        "id": "rbxassetid://247745836"
+    },
+    {
+        "name": "Lightsaber-SidestepUpperSlash",
+        "id": "rbxassetid://247744115"
+    },
+    {
+        "name": "Lightsaber-CenteredDownwardIdlePose",
+        "id": "rbxassetid://247742499"
+    },
+    {
+        "name": "Lightsaber-Spin",
+        "id": "rbxassetid://247739506"
+    },
+    {
+        "name": "Lightsaber-InwardUpperSlash",
+        "id": "rbxassetid://247735656"
+    },
+    {
+        "name": "Lightsaber-UpwardSlash",
+        "id": "rbxassetid://247734644"
+    },
+    {
+        "name": "Lightsaber-Slash",
+        "id": "rbxassetid://247733469"
+    },
+    {
+        "name": "Lightsaber-OutwardSlash",
+        "id": "rbxassetid://247732752"
+    },
+    {
+        "name": "Lightsaber-SidewaysJab",
+        "id": "rbxassetid://247722403"
+    },
+    {
+        "name": "Lightsaber-Bash",
+        "id": "rbxassetid://247693145"
+    },
+    {
+        "name": "Lightsaber-Equip",
+        "id": "rbxassetid://247672845"
+    },
+    {
+        "name": "Motorcycle-Equip",
+        "id": "rbxassetid://247487116"
+    },
+    {
+        "name": "SwordAndShield-Blast",
+        "id": "rbxassetid://243999792"
+    },
+    {
+        "name": "SwordAndShield-Slash2",
+        "id": "rbxassetid://243986898"
+    },
+    {
+        "name": "SwordAndShield-Slash1",
+        "id": "rbxassetid://243986496"
+    },
+    {
+        "name": "SwordAndShield-Hold",
+        "id": "rbxassetid://243985891"
+    },
+    {
+        "name": "SwordAndShield-Block",
+        "id": "rbxassetid://243985338"
+    },
+    {
+        "name": "Flintlock-Hold",
+        "id": "rbxassetid://243881876"
+    },
+    {
+        "name": "Naginata-DownwardSpin",
+        "id": "rbxassetid://243849717"
+    },
+    {
+        "name": "Naginata-Spin",
+        "id": "rbxassetid://243839922"
+    },
+    {
+        "name": "HandSlam",
+        "id": "rbxassetid://243827693"
+    },
+    {
+        "name": "Naginata-Jab",
+        "id": "rbxassetid://243809042"
+    },
+    {
+        "name": "Naginata-ClockwiseWhip",
+        "id": "rbxassetid://243807825"
+    },
+    {
+        "name": "Naginata-Counter-ClockwiseWhip",
+        "id": "rbxassetid://243766074"
+    },
+    {
+        "name": "Naginata-Slash",
+        "id": "rbxassetid://243764134"
+    },
+    {
+        "name": "Naginata-Hold",
+        "id": "rbxassetid://243761991"
+    },
+    {
+        "name": "ArtemisSwordandShield-ChargeFinish",
+        "id": "rbxassetid://243663079"
+    },
+    {
+        "name": "ArtemisSwordandShield-ChargeSlash",
+        "id": "rbxassetid://243662996"
+    },
+    {
+        "name": "ArtemisSwordandShield-FullChargeIdle",
+        "id": "rbxassetid://243656287"
+    },
+    {
+        "name": "ArtemisSwordandShield-CancelCharge",
+        "id": "rbxassetid://243655793"
+    },
+    {
+        "name": "ArtemisSwordandShield-Charge",
+        "id": "rbxassetid://243653141"
+    },
+    {
+        "name": "ArtemisSwordandShield-Slash3",
+        "id": "rbxassetid://243642696"
+    },
+    {
+        "name": "ArtemisSwordandShield-Slash2",
+        "id": "rbxassetid://243642291"
+    },
+    {
+        "name": "ArtemisSwordandShield-Slash1",
+        "id": "rbxassetid://243641880"
+    },
+    {
+        "name": "ArtemisSwordandShield-ShieldIdle",
+        "id": "rbxassetid://243631640"
+    },
+    {
+        "name": "GloveHold",
+        "id": "rbxassetid://243592320"
+    },
+    {
+        "name": "HexSpitter-Reload",
+        "id": "rbxassetid://243311743"
+    },
+    {
+        "name": "HexSpitter-Fire",
+        "id": "rbxassetid://243294586"
+    },
+    {
+        "name": "HexSpitter-HoldIdle",
+        "id": "rbxassetid://243282565"
+    },
+    {
+        "name": "Dagger-Slash2",
+        "id": "rbxassetid://242455877"
+    },
+    {
+        "name": "Dagger-Slash",
+        "id": "rbxassetid://241379669"
+    },
+    {
+        "name": "Dagger-Hold",
+        "id": "rbxassetid://241279220"
+    },
+    {
+        "name": "CarpetFlop",
+        "id": "rbxassetid://236140080"
+    },
+    {
+        "name": "Horn-Blow",
+        "id": "rbxassetid://235543257"
+    },
+    {
+        "name": "ArmsOutSpin",
+        "id": "rbxassetid://235542946"
+    },
+    {
+        "name": "DualCymbalsIdle",
+        "id": "rbxassetid://235129486"
+    },
+    {
+        "name": "GlobeLauncherThrow",
+        "id": "rbxassetid://233535408"
+    },
+    {
+        "name": "SaiSwing",
+        "id": "rbxassetid://233329237"
+    },
+    {
+        "name": "SaiFall",
+        "id": "rbxassetid://233322916"
+    },
+    {
+        "name": "TwoHand-Spin",
+        "id": "rbxassetid://233087184"
+    },
+    {
+        "name": "TwoHand-HoldOut",
+        "id": "rbxassetid://233077885"
+    },
+    {
+        "name": "SaiJump",
+        "id": "rbxassetid://233064613"
+    },
+    {
+        "name": "ClockwiseSpin",
+        "id": "rbxassetid://233036587"
+    },
+    {
+        "name": "Counter-ClockwiseSpin",
+        "id": "rbxassetid://232937965"
+    },
+    {
+        "name": "Grenade-Throw",
+        "id": "rbxassetid://232442422"
+    },
+    {
+        "name": "BowFire",
+        "id": "rbxassetid://228444297"
+    },
+    {
+        "name": "HoldOntoEgg",
+        "id": "rbxassetid://225975820"
+    },
+    {
+        "name": "Sword-Equip",
+        "id": "rbxassetid://225795104"
+    },
+    {
+        "name": "FlutePlay",
+        "id": "rbxassetid://225631595"
+    },
+    {
+        "name": "Carpet-IdleSit",
+        "id": "rbxassetid://225279725"
+    },
+    {
+        "name": "IdleMovement",
+        "id": "rbxassetid://224950590"
+    },
+    {
+        "name": "Sword-TwoHandCenteredEquip",
+        "id": "rbxassetid://223722445"
+    },
+    {
+        "name": "Claws-Slash",
+        "id": "rbxassetid://223624106"
+    },
+    {
+        "name": "Equip-ArmsOut",
+        "id": "rbxassetid://223623937"
+    },
+    {
+        "name": "SwordAndShield-Slash",
+        "id": "rbxassetid://223283721"
+    },
+    {
+        "name": "M1GarandIdle",
+        "id": "rbxassetid://223226166"
+    },
+    {
+        "name": "SwordAndShield-ShieldBash",
+        "id": "rbxassetid://223211142"
+    },
+    {
+        "name": "SwordAndShield-DefensiveShieldSlash",
+        "id": "rbxassetid://223210756"
+    },
+    {
+        "name": "SwordAndShield-Block",
+        "id": "rbxassetid://223207191"
+    },
+    {
+        "name": "SwordAndShield-Equip",
+        "id": "rbxassetid://223206182"
+    },
+    {
+        "name": "WizardStaff-HoldCharge",
+        "id": "rbxassetid://221013511"
+    },
+    {
+        "name": "WizardStaff-Charge",
+        "id": "rbxassetid://220910360"
+    },
+    {
+        "name": "WizardStaff-Fire",
+        "id": "rbxassetid://220893460"
+    },
+    {
+        "name": "WizardStaff-Equip",
+        "id": "rbxassetid://220879712"
+    },
+    {
+        "name": "WizardStaff-CastSpell",
+        "id": "rbxassetid://220876513"
+    },
+    {
+        "name": "RedCrossbowReload",
+        "id": "rbxassetid://220832011"
+    },
+    {
+        "name": "RedCrossbowHold",
+        "id": "rbxassetid://220829805"
+    },
+    {
+        "name": "RedCrossbowHold",
+        "id": "rbxassetid://220828820"
+    },
+    {
+        "name": "Claymore-Charge",
+        "id": "rbxassetid://220540334"
+    },
+    {
+        "name": "Claymore-JumpAttack",
+        "id": "rbxassetid://220512718"
+    },
+    {
+        "name": "Claymore-Swing2",
+        "id": "rbxassetid://220504509"
+    },
+    {
+        "name": "Claymore-Swing1",
+        "id": "rbxassetid://220502245"
+    },
+    {
+        "name": "WaterBottle-Drink",
+        "id": "rbxassetid://220342144"
+    },
+    {
+        "name": "Umbrella-Hold",
+        "id": "rbxassetid://220314918"
+    },
+    {
+        "name": "LaserScytheSwing2",
+        "id": "rbxassetid://218508052"
+    },
+    {
+        "name": "LaserScytheSwing1",
+        "id": "rbxassetid://218504594"
+    },
+    {
+        "name": "ALSIceBucketChallenge-SelfThrow",
+        "id": "rbxassetid://217065346"
+    },
+    {
+        "name": "IceFreeze-Shiver(Looped)",
+        "id": "rbxassetid://216937924"
+    },
+    {
+        "name": "IceFreeze-Start",
+        "id": "rbxassetid://216937782"
+    },
+    {
+        "name": "GriffinFly",
+        "id": "rbxassetid://215384594"
+    },
+    {
+        "name": "BloxsterV2-IdlePose",
+        "id": "rbxassetid://215262147"
+    },
+    {
+        "name": "BDBWalk",
+        "id": "rbxassetid://214748382"
+    },
+    {
+        "name": "BDBIdle",
+        "id": "rbxassetid://214747217"
+    },
+    {
+        "name": "BDBStrike",
+        "id": "rbxassetid://214744412"
+    },
+    {
+        "name": "DBDRightSlash",
+        "id": "rbxassetid://214744245"
+    },
+    {
+        "name": "DBDLeftSlash",
+        "id": "rbxassetid://214744167"
+    },
+    {
+        "name": "HyperbikeV2-IdlePose",
+        "id": "rbxassetid://214738896"
+    },
+    {
+        "name": "SharkSword-Slash3",
+        "id": "rbxassetid://212177755"
+    },
+    {
+        "name": "SharkSword-Charge",
+        "id": "rbxassetid://212175593"
+    },
+    {
+        "name": "SharkSword-Slash2",
+        "id": "rbxassetid://212099530"
+    },
+    {
+        "name": "SharkSword-Slash1",
+        "id": "rbxassetid://212068929"
+    },
+    {
+        "name": "TwinKodachi-Slash",
+        "id": "rbxassetid://211953288"
+    },
+    {
+        "name": "EatAnimation",
+        "id": "rbxassetid://211914659"
+    },
+    {
+        "name": "SmokeBombThrow",
+        "id": "rbxassetid://209875013"
+    },
+    {
+        "name": "RayvengeIdle2",
+        "id": "rbxassetid://207243866"
+    },
+    {
+        "name": "RayvengeIdle1",
+        "id": "rbxassetid://207243699"
+    },
+    {
+        "name": "KnifeThrow",
+        "id": "rbxassetid://207107855"
+    },
+    {
+        "name": "GunHold",
+        "id": "rbxassetid://206851098"
+    },
+    {
+        "name": "Hyperbike-SeatedIdlePose",
+        "id": "rbxassetid://206693357"
+    },
+    {
+        "name": "DinoWalk",
+        "id": "rbxassetid://204328711"
+    },
+    {
+        "name": "DinoSword-JumpStrike",
+        "id": "rbxassetid://204295235"
+    },
+    {
+        "name": "DinoSword-ForwardLunge",
+        "id": "rbxassetid://204292303"
+    },
+    {
+        "name": "DinoSword-Slash",
+        "id": "rbxassetid://204291238"
+    },
+    {
+        "name": "Bow-GrappleShot",
+        "id": "rbxassetid://204195154"
+    },
+    {
+        "name": "FlailSwing1",
+        "id": "rbxassetid://204062532"
+    },
+    {
+        "name": "FlailIdle",
+        "id": "rbxassetid://204055750"
+    },
+    {
+        "name": "FireBow",
+        "id": "rbxassetid://203929952"
+    },
+    {
+        "name": "IdleBow",
+        "id": "rbxassetid://203929876"
+    },
+    {
+        "name": "HoldBow",
+        "id": "rbxassetid://203929811"
+    },
+    {
+        "name": "JeweledSwordSwing2",
+        "id": "rbxassetid://203876950"
+    },
+    {
+        "name": "JeweledSwordSwing1",
+        "id": "rbxassetid://203875401"
+    },
+    {
+        "name": "SkullBasher-StrongBash",
+        "id": "rbxassetid://203733184"
+    },
+    {
+        "name": "SkullBasher-ReleaseHoldAndBash",
+        "id": "rbxassetid://203675078"
+    },
+    {
+        "name": "UpperSlash",
+        "id": "rbxassetid://201968383"
+    },
+    {
+        "name": "OuterSlash",
+        "id": "rbxassetid://201968176"
+    },
+    {
+        "name": "DownSlash",
+        "id": "rbxassetid://201967827"
+    },
+    {
+        "name": "UpSlash",
+        "id": "rbxassetid://201967646"
+    },
+    {
+        "name": "DownLeftSlash",
+        "id": "rbxassetid://201967019"
+    },
+    {
+        "name": "DownRightSlash",
+        "id": "rbxassetid://201966758"
+    },
+    {
+        "name": "UpLeftSlash",
+        "id": "rbxassetid://201966419"
+    },
+    {
+        "name": "UpRightSlash",
+        "id": "rbxassetid://201965900"
+    },
+    {
+        "name": "ViolinCrossbow-Aim",
+        "id": "rbxassetid://200851211"
+    },
+    {
+        "name": "ViolinCrossbow-Release",
+        "id": "rbxassetid://200840355"
+    },
+    {
+        "name": "ViolinCrossbow-Reload",
+        "id": "rbxassetid://200834692"
+    },
+    {
+        "name": "Guitar-Smash",
+        "id": "rbxassetid://193829250"
+    },
+    {
+        "name": "AssassinCrossbow-StealthPose",
+        "id": "rbxassetid://193427897"
+    },
+    {
+        "name": "WarMace-SideSwipe",
+        "id": "rbxassetid://193347454"
+    },
+    {
+        "name": "WarMace-Bash",
+        "id": "rbxassetid://193343548"
+    },
+    {
+        "name": "AssassinCrossbow-ReleaseArrow",
+        "id": "rbxassetid://193342492"
+    },
+    {
+        "name": "WarMace-Whack",
+        "id": "rbxassetid://193330490"
+    },
+    {
+        "name": "BowHold",
+        "id": "rbxassetid://193308129"
+    },
+    {
+        "name": "BowShoot",
+        "id": "rbxassetid://193307200"
+    },
+    {
+        "name": "BowIdle",
+        "id": "rbxassetid://193305506"
+    },
+    {
+        "name": "SnowboardStand",
+        "id": "rbxassetid://193126489"
+    },
+    {
+        "name": "WarMace-Hold",
+        "id": "rbxassetid://192911538"
+    },
+    {
+        "name": "Guitar-Equip",
+        "id": "rbxassetid://192906348"
+    },
+    {
+        "name": "Guitar-PlayTune",
+        "id": "rbxassetid://192900081"
+    },
+    {
+        "name": "Spin",
+        "id": "rbxassetid://191124503"
+    },
+    {
+        "name": "HackAndSlash1",
+        "id": "rbxassetid://191123156"
+    },
+    {
+        "name": "DinoWalk",
+        "id": "rbxassetid://190075311"
+    },
+    {
+        "name": "Skis-Tuck",
+        "id": "rbxassetid://190071033"
+    },
+    {
+        "name": "Skis-Swing",
+        "id": "rbxassetid://190070830"
+    },
+    {
+        "name": "Reload",
+        "id": "rbxassetid://190070243"
+    },
+    {
+        "name": "Skis-IdleLegMovement",
+        "id": "rbxassetid://190032723"
+    },
+    {
+        "name": "Bike-RidingStance",
+        "id": "rbxassetid://189854234"
+    },
+    {
+        "name": "DualWield",
+        "id": "rbxassetid://188856222"
+    },
+    {
+        "name": "ThrowDouble",
+        "id": "rbxassetid://188854557"
+    },
+    {
+        "name": "ThrowLeft",
+        "id": "rbxassetid://188854226"
+    },
+    {
+        "name": "ThrowRight",
+        "id": "rbxassetid://188853932"
+    },
+    {
+        "name": "IceClaws-Block",
+        "id": "rbxassetid://188790303"
+    },
+    {
+        "name": "IceClaws-LeftSlash",
+        "id": "rbxassetid://188741508"
+    },
+    {
+        "name": "IceClaws-RightSlash",
+        "id": "rbxassetid://188741409"
+    },
+    {
+        "name": "IceClaws-DoubleClash",
+        "id": "rbxassetid://188741151"
+    },
+    {
+        "name": "Spin",
+        "id": "rbxassetid://188632011"
+    },
+    {
+        "name": "ThrowingStar-Throw",
+        "id": "rbxassetid://188491904"
+    },
+    {
+        "name": "ShieldBlock",
+        "id": "rbxassetid://188475403"
+    },
+    {
+        "name": "BoneAxe-KickHit",
+        "id": "rbxassetid://188443632"
+    },
+    {
+        "name": "BoneAxe-ArmsOut",
+        "id": "rbxassetid://188242481"
+    },
+    {
+        "name": "BoneAxe-ArmsUp",
+        "id": "rbxassetid://187951261"
+    },
+    {
+        "name": "BoneAxe-LeftSwing",
+        "id": "rbxassetid://187919240"
+    },
+    {
+        "name": "BoneAxe-RightSwing",
+        "id": "rbxassetid://187918653"
+    },
+    {
+        "name": "AssassinCrossbow-IdlePose",
+        "id": "rbxassetid://187825276"
+    },
+    {
+        "name": "CannonZoomFire",
+        "id": "rbxassetid://187774830"
+    },
+    {
+        "name": "CannonFire",
+        "id": "rbxassetid://187772539"
+    },
+    {
+        "name": "CannonZoom",
+        "id": "rbxassetid://187633322"
+    },
+    {
+        "name": "KnockedOutAnimation",
+        "id": "rbxassetid://187567719"
+    },
+    {
+        "name": "PolarBearClaws-LeftSlash",
+        "id": "rbxassetid://187565018"
+    },
+    {
+        "name": "PolarBearClaws-RightSlash",
+        "id": "rbxassetid://187564515"
+    },
+    {
+        "name": "HoldArmsOut",
+        "id": "rbxassetid://187562176"
+    },
+    {
+        "name": "SnowmanSwordSpin",
+        "id": "rbxassetid://186934910"
+    },
+    {
+        "name": "SnowmanSwordChop",
+        "id": "rbxassetid://186934753"
+    },
+    {
+        "name": "SnowmanSwordSlash",
+        "id": "rbxassetid://186934658"
+    },
+    {
+        "name": "IceFlail-CompleteHoldDown",
+        "id": "rbxassetid://186911511"
+    },
+    {
+        "name": "IceFlail-Swing",
+        "id": "rbxassetid://186910380"
+    },
+    {
+        "name": "IceFlail-HoldDownLooped",
+        "id": "rbxassetid://186908229"
+    },
+    {
+        "name": "IceFlail-HoldDown",
+        "id": "rbxassetid://186908192"
+    },
+    {
+        "name": "IceFlail-HoldUpLooped",
+        "id": "rbxassetid://186904307"
+    },
+    {
+        "name": "IceFlail-HoldUp",
+        "id": "rbxassetid://186904247"
+    },
+    {
+        "name": "BowAndArrow-HoldAim",
+        "id": "rbxassetid://186773611"
+    },
+    {
+        "name": "BowAndArrow-Aim",
+        "id": "rbxassetid://186773334"
+    },
+    {
+        "name": "BowAndArrow-ArrowReload",
+        "id": "rbxassetid://186766708"
+    },
+    {
+        "name": "TabletActivate",
+        "id": "rbxassetid://186673959"
+    },
+    {
+        "name": "CowbellRing",
+        "id": "rbxassetid://186434728"
+    },
+    {
+        "name": "DualLunge",
+        "id": "rbxassetid://186002834"
+    },
+    {
+        "name": "DualSlash",
+        "id": "rbxassetid://186001341"
+    },
+    {
+        "name": "DualEquip",
+        "id": "rbxassetid://185824714"
+    },
+    {
+        "name": "Bloxster-Equipped",
+        "id": "rbxassetid://185299570"
+    },
+    {
+        "name": "SteampunkBowFire",
+        "id": "rbxassetid://184721465"
+    },
+    {
+        "name": "SteampunkBowCharge",
+        "id": "rbxassetid://184721389"
+    },
+    {
+        "name": "SteampunkBowPull",
+        "id": "rbxassetid://184721207"
+    },
+    {
+        "name": "GiantAngelicSwordSlam",
+        "id": "rbxassetid://184574340"
+    },
+    {
+        "name": "GiantAngelicSwordSwingRightToLeft",
+        "id": "rbxassetid://184573779"
+    },
+    {
+        "name": "GiantAngelicSwordSwingLeftToRight",
+        "id": "rbxassetid://184573748"
+    },
+    {
+        "name": "GiantAngelicSwordHold",
+        "id": "rbxassetid://184572142"
+    },
+    {
+        "name": "WingedWarrior'sSword-SwordSpinPose",
+        "id": "rbxassetid://184467564"
+    },
+    {
+        "name": "WingedWarrior'sSword-Swing",
+        "id": "rbxassetid://184465557"
+    },
+    {
+        "name": "SoldierAiming",
+        "id": "rbxassetid://183817498"
+    },
+    {
+        "name": "SwordOfTheLand-Rise",
+        "id": "rbxassetid://183798221"
+    },
+    {
+        "name": "LongSword-LeftSlash",
+        "id": "rbxassetid://183782172"
+    },
+    {
+        "name": "LongSword-RightSlash",
+        "id": "rbxassetid://183781926"
+    },
+    {
+        "name": "LongSword-TwoHandUpperSlash",
+        "id": "rbxassetid://183780764"
+    },
+    {
+        "name": "LongSword-TwoHandSlash",
+        "id": "rbxassetid://183777591"
+    },
+    {
+        "name": "Fightened-CoverFaceinTerror",
+        "id": "rbxassetid://183696478"
+    },
+    {
+        "name": "FrightenedJumpScare",
+        "id": "rbxassetid://183695923"
+    },
+    {
+        "name": "NeonNinjaThrowingStarsThrow",
+        "id": "rbxassetid://183656597"
+    },
+    {
+        "name": "BlindingLightAxeNormal2",
+        "id": "rbxassetid://183464295"
+    },
+    {
+        "name": "BlindingLightAxeNormal1",
+        "id": "rbxassetid://183463409"
+    },
+    {
+        "name": "Violin-Playing",
+        "id": "rbxassetid://183438463"
+    },
+    {
+        "name": "Violin-StartPlaying",
+        "id": "rbxassetid://183436589"
+    },
+    {
+        "name": "ViolinBowEquip",
+        "id": "rbxassetid://183428213"
+    },
+    {
+        "name": "LightReflectionSwordSpecial",
+        "id": "rbxassetid://183412246"
+    },
+    {
+        "name": "LightReflectionSwordNormal2",
+        "id": "rbxassetid://183412214"
+    },
+    {
+        "name": "LightReflectionSwordNormal1",
+        "id": "rbxassetid://183412182"
+    },
+    {
+        "name": "ZombieArmsIdle",
+        "id": "rbxassetid://183294396"
+    },
+    {
+        "name": "MetalFists-GroundPunch",
+        "id": "rbxassetid://182789003"
+    },
+    {
+        "name": "MetalFists-FistPunch",
+        "id": "rbxassetid://182788311"
+    },
+    {
+        "name": "MetalFists-ClapPunch",
+        "id": "rbxassetid://182787360"
+    },
+    {
+        "name": "MetalFists-RightPunch",
+        "id": "rbxassetid://182786591"
+    },
+    {
+        "name": "MetalFists-LeftPunch",
+        "id": "rbxassetid://182786249"
+    },
+    {
+        "name": "LaserGun-Crawl",
+        "id": "rbxassetid://182749109"
+    },
+    {
+        "name": "LaserGun-Crouch",
+        "id": "rbxassetid://182724289"
+    },
+    {
+        "name": "LaserGun-SideShot",
+        "id": "rbxassetid://182644621"
+    },
+    {
+        "name": "LaserGun-Shot",
+        "id": "rbxassetid://182634467"
+    },
+    {
+        "name": "LaserGun-Equip",
+        "id": "rbxassetid://182631367"
+    },
+    {
+        "name": "Dance3_3loop",
+        "id": "rbxassetid://182491423"
+    },
+    {
+        "name": "Dance3_2Loop",
+        "id": "rbxassetid://182491368"
+    },
+    {
+        "name": "Dance2_3Loop",
+        "id": "rbxassetid://182491277"
+    },
+    {
+        "name": "Dance2_2Loop",
+        "id": "rbxassetid://182491248"
+    },
+    {
+        "name": "Dance3Loop",
+        "id": "rbxassetid://182491065"
+    },
+    {
+        "name": "Dance2Loop",
+        "id": "rbxassetid://182491037"
+    },
+    {
+        "name": "cannon_shoot_improved",
+        "id": "rbxassetid://182463144"
+    },
+    {
+        "name": "Dance3_1Loop",
+        "id": "rbxassetid://182436935"
+    },
+    {
+        "name": "Dance2_1Loop",
+        "id": "rbxassetid://182436842"
+    },
+    {
+        "name": "DanceLoop",
+        "id": "rbxassetid://182435998"
+    },
+    {
+        "name": "ToolLoopAnimation",
+        "id": "rbxassetid://182393478"
+    },
+    {
+        "name": "PumpkinStinkAttack-Unconscious",
+        "id": "rbxassetid://181526230"
+    },
+    {
+        "name": "PumpkinStinkAttack-Faint",
+        "id": "rbxassetid://181525546"
+    },
+    {
+        "name": "ThrowCandy",
+        "id": "rbxassetid://181437419"
+    },
+    {
+        "name": "ChopPunch",
+        "id": "rbxassetid://181263498"
+    },
+    {
+        "name": "UpperPunch",
+        "id": "rbxassetid://181263202"
+    },
+    {
+        "name": "SidePunch",
+        "id": "rbxassetid://181262679"
+    },
+    {
+        "name": "PunchBlock",
+        "id": "rbxassetid://181262165"
+    },
+    {
+        "name": "ForwardPunch",
+        "id": "rbxassetid://181260999"
+    },
+    {
+        "name": "RightSlash",
+        "id": "rbxassetid://181167590"
+    },
+    {
+        "name": "LeftSlash",
+        "id": "rbxassetid://180646771"
+    },
+    {
+        "name": "Frightened",
+        "id": "rbxassetid://180612465"
+    },
+    {
+        "name": "Scream",
+        "id": "rbxassetid://180611870"
+    },
+    {
+        "name": "ClimbLoopAnimation",
+        "id": "rbxassetid://180436334"
+    },
+    {
+        "name": "FallLoopAnimation",
+        "id": "rbxassetid://180436148"
+    },
+    {
+        "name": "Idle2LoopAnimation",
+        "id": "rbxassetid://180435792"
+    },
+    {
+        "name": "Idle1LoopAnimation",
+        "id": "rbxassetid://180435571"
+    },
+    {
+        "name": "WalkLoopAnimation",
+        "id": "rbxassetid://180426354"
+    },
+    {
+        "name": "ZombieAttack",
+        "id": "rbxassetid://180416148"
+    },
+    {
+        "name": "MonsterMorphPose",
+        "id": "rbxassetid://180391962"
+    },
+    {
+        "name": "DrinkPotion",
+        "id": "rbxassetid://180324301"
+    },
+    {
+        "name": "RoPed-StandUp",
+        "id": "rbxassetid://180270832"
+    },
+    {
+        "name": "UndeadKnightSword-Slash7",
+        "id": "rbxassetid://180167640"
+    },
+    {
+        "name": "UndeadKnightSword-Slash6",
+        "id": "rbxassetid://180166818"
+    },
+    {
+        "name": "UndeadKnightSword-Slash5",
+        "id": "rbxassetid://180166754"
+    },
+    {
+        "name": "UndeadKnightSword-Slash4",
+        "id": "rbxassetid://180166458"
+    },
+    {
+        "name": "UndeadKnightSword-Slash3",
+        "id": "rbxassetid://180166194"
+    },
+    {
+        "name": "UndeadKnightSword-Slash2",
+        "id": "rbxassetid://180165953"
+    },
+    {
+        "name": "UndeadKnightSword-Slash1",
+        "id": "rbxassetid://180165573"
+    },
+    {
+        "name": "ArmsOutAnimation",
+        "id": "rbxassetid://179629775"
+    },
+    {
+        "name": "SitAnimation",
+        "id": "rbxassetid://179224234"
+    },
+    {
+        "name": "SittingAnimation",
+        "id": "rbxassetid://178130996"
+    },
+    {
+        "name": "crossbow_reload",
+        "id": "rbxassetid://177825431"
+    },
+    {
+        "name": "EnergySwordSlash",
+        "id": "rbxassetid://177443776"
+    },
+    {
+        "name": "foamfinger_excited",
+        "id": "rbxassetid://176236333"
+    },
+    {
+        "name": "ScytheOfSingularity-Equip",
+        "id": "rbxassetid://176223120"
+    },
+    {
+        "name": "cannon_shoot",
+        "id": "rbxassetid://176177529"
+    },
+    {
+        "name": "TigerSword-RightSlash",
+        "id": "rbxassetid://175202396"
+    },
+    {
+        "name": "TigerSword-LeftSlash",
+        "id": "rbxassetid://175164337"
+    },
+    {
+        "name": "EgyptianSwordSwing1",
+        "id": "rbxassetid://174517680"
+    },
+    {
+        "name": "frisbee_swing",
+        "id": "rbxassetid://174347769"
+    },
+    {
+        "name": "CrossbowReload",
+        "id": "rbxassetid://174317574"
+    },
+    {
+        "name": "CivilWarCannonSitPose",
+        "id": "rbxassetid://173820337"
+    },
+    {
+        "name": "ALSIceBucketShiver",
+        "id": "rbxassetid://173712459"
+    },
+    {
+        "name": "ALSIceBucketSelfThrow",
+        "id": "rbxassetid://173675204"
+    },
+    {
+        "name": "ALSIceBucketThrow",
+        "id": "rbxassetid://173673979"
+    },
+    {
+        "name": "FallKnightSword-Special",
+        "id": "rbxassetid://172258585"
+    },
+    {
+        "name": "FallKnightSwordSwing3",
+        "id": "rbxassetid://172206261"
+    },
+    {
+        "name": "FallKnightSwordSwing2",
+        "id": "rbxassetid://172205402"
+    },
+    {
+        "name": "FallKnightSwordSwing1",
+        "id": "rbxassetid://172204003"
+    },
+    {
+        "name": "Penguin_Slide",
+        "id": "rbxassetid://171967794"
+    },
+    {
+        "name": "Taco_Launcher_Taco_Reaction",
+        "id": "rbxassetid://170720901"
+    },
+    {
+        "name": "blah3",
+        "id": "rbxassetid://169638954"
+    },
+    {
+        "name": "mace_swing",
+        "id": "rbxassetid://168801331"
+    },
+    {
+        "name": "dash_attack",
+        "id": "rbxassetid://168744201"
+    },
+    {
+        "name": "Space_Sword_Special",
+        "id": "rbxassetid://168298118"
+    },
+    {
+        "name": "Space_Sword_Swing_4",
+        "id": "rbxassetid://168272429"
+    },
+    {
+        "name": "Space_Sword_Swing_3",
+        "id": "rbxassetid://168271478"
+    },
+    {
+        "name": "Space_Sword_Swing_2",
+        "id": "rbxassetid://168270705"
+    },
+    {
+        "name": "Space_Sword_Swing_1",
+        "id": "rbxassetid://168268306"
+    },
+    {
+        "name": "grenade_throw",
+        "id": "rbxassetid://168160500"
+    },
+    {
+        "name": "Pizza_Delivery_Motorcycle_Riding",
+        "id": "rbxassetid://168138731"
+    },
+    {
+        "name": "Gatling_Laser_Equip",
+        "id": "rbxassetid://168086975"
+    },
+    {
+        "name": "flame_eat",
+        "id": "rbxassetid://167434460"
+    },
+    {
+        "name": "Idle_Movement",
+        "id": "rbxassetid://167272039"
+    },
+    {
+        "name": "Boxing_Glove_Launcher_Reload",
+        "id": "rbxassetid://166944187"
+    },
+    {
+        "name": "Boxing_Glove_Launcher_Fire",
+        "id": "rbxassetid://166942995"
+    },
+    {
+        "name": "Ham_Fists_Right_Punch",
+        "id": "rbxassetid://166610111"
+    },
+    {
+        "name": "Ham_Fists_Left_Punch",
+        "id": "rbxassetid://166609398"
+    },
+    {
+        "name": "Dagger_Strike",
+        "id": "rbxassetid://166264948"
+    },
+    {
+        "name": "Tutu_Jump_Pose_2",
+        "id": "rbxassetid://165928826"
+    },
+    {
+        "name": "Tutu_Jump_Pose_1",
+        "id": "rbxassetid://165928638"
+    },
+    {
+        "name": "fall2013",
+        "id": "rbxassetid://165167632"
+    },
+    {
+        "name": "jump2013",
+        "id": "rbxassetid://165167557"
+    },
+    {
+        "name": "Sword_Swing",
+        "id": "rbxassetid://164174920"
+    },
+    {
+        "name": "Spear_Swing",
+        "id": "rbxassetid://164025878"
+    },
+    {
+        "name": "fire_attack",
+        "id": "rbxassetid://163209885"
+    },
+    {
+        "name": "drink_liquid",
+        "id": "rbxassetid://163203876"
+    },
+    {
+        "name": "plane_throw",
+        "id": "rbxassetid://162861977"
+    },
+    {
+        "name": "Midas_Hand_Swing",
+        "id": "rbxassetid://162787112"
+    },
+    {
+        "name": "item_throw",
+        "id": "rbxassetid://162266420"
+    },
+    {
+        "name": "cymbals_slam",
+        "id": "rbxassetid://162250536"
+    },
+    {
+        "name": "Guitar_Play_Note_Anim",
+        "id": "rbxassetid://162215777"
+    },
+    {
+        "name": "UFO_Spawn_Anim",
+        "id": "rbxassetid://161723112"
+    },
+    {
+        "name": "controller_hold",
+        "id": "rbxassetid://161268368"
+    },
+    {
+        "name": "Climb2013",
+        "id": "rbxassetid://161235826"
+    },
+    {
+        "name": "walk2013",
+        "id": "rbxassetid://161210451"
+    },
+    {
+        "name": "Wings_Flight_Takeoff_Anim",
+        "id": "rbxassetid://161156755"
+    },
+    {
+        "name": "Plunger_Reload_Anim",
+        "id": "rbxassetid://161128887"
+    },
+    {
+        "name": "Idle2013",
+        "id": "rbxassetid://161100084"
+    },
+    {
+        "name": "Dance2013",
+        "id": "rbxassetid://161099825"
+    },
+    {
+        "name": "firework_light",
+        "id": "rbxassetid://161033971"
+    },
+    {
+        "name": "Dance3_3",
+        "id": "rbxassetid://160934593"
+    },
+    {
+        "name": "Dance3_2",
+        "id": "rbxassetid://160934530"
+    },
+    {
+        "name": "Dance3_1",
+        "id": "rbxassetid://160934458"
+    },
+    {
+        "name": "Dance2_3",
+        "id": "rbxassetid://160934376"
+    },
+    {
+        "name": "Dance2_2",
+        "id": "rbxassetid://160934298"
+    },
+    {
+        "name": "Dance2_1",
+        "id": "rbxassetid://160934142"
+    },
+    {
+        "name": "Ollie_Anim",
+        "id": "rbxassetid://160737450"
+    },
+    {
+        "name": "RightTurn_Anim",
+        "id": "rbxassetid://160737408"
+    },
+    {
+        "name": "LeftTurn_Anim",
+        "id": "rbxassetid://160737355"
+    },
+    {
+        "name": "CoastingPose_Anim",
+        "id": "rbxassetid://160737288"
+    },
+    {
+        "name": "BoardKick_Anim",
+        "id": "rbxassetid://160737244"
+    },
+    {
+        "name": "staff-call",
+        "id": "rbxassetid://160725720"
+    },
+    {
+        "name": "Charge_Anim",
+        "id": "rbxassetid://160696650"
+    },
+    {
+        "name": "Upper_Slash_Anim",
+        "id": "rbxassetid://160693489"
+    },
+    {
+        "name": "Nunchuck_Swing",
+        "id": "rbxassetid://160105022"
+    },
+    {
+        "name": "Hold_Out_Anim",
+        "id": "rbxassetid://160100140"
+    },
+    {
+        "name": "Bo_Staff_Grip",
+        "id": "rbxassetid://160093062"
+    },
+    {
+        "name": "Eating_Anim",
+        "id": "rbxassetid://159993489"
+    },
+    {
+        "name": "BOW_RELOAD",
+        "id": "rbxassetid://159934882"
+    },
+    {
+        "name": "Block",
+        "id": "rbxassetid://159866845"
+    },
+    {
+        "name": "Left_Slash",
+        "id": "rbxassetid://159864898"
+    },
+    {
+        "name": "Right_Slash",
+        "id": "rbxassetid://159864833"
+    },
+    {
+        "name": "Periastron_Charge",
+        "id": "rbxassetid://159223413"
+    },
+    {
+        "name": "Laser_Chainsaw_Laser_Shot",
+        "id": "rbxassetid://158994295"
+    },
+    {
+        "name": "Laser_Chainsaw_Slash",
+        "id": "rbxassetid://158977057"
+    },
+    {
+        "name": "Laser_Faceplate_Pose",
+        "id": "rbxassetid://158821881"
+    },
+    {
+        "name": "Spin",
+        "id": "rbxassetid://157568994"
+    },
+    {
+        "name": "ReloadArrow_Anim",
+        "id": "rbxassetid://153839856"
+    },
+    {
+        "name": "sec",
+        "id": "rbxassetid://153823541"
+    },
+    {
+        "name": "first",
+        "id": "rbxassetid://153823345"
+    },
+    {
+        "name": "BassDrop_ThrowAnim",
+        "id": "rbxassetid://152223753"
+    },
+    {
+        "name": "BassDrop_ThrowAnim",
+        "id": "rbxassetid://152208184"
+    },
+    {
+        "name": "EquipChair_Anim",
+        "id": "rbxassetid://151316061"
+    },
+    {
+        "name": "ChargeShotEnd",
+        "id": "rbxassetid://151293057"
+    },
+    {
+        "name": "ChargeShotBegin",
+        "id": "rbxassetid://151292974"
+    },
+    {
+        "name": "Test2",
+        "id": "rbxassetid://151292681"
+    },
+    {
+        "name": "Test",
+        "id": "rbxassetid://151291739"
+    },
+    {
+        "name": "BalloonFloat02",
+        "id": "rbxassetid://148840371"
+    },
+    {
+        "name": "BalloonHold",
+        "id": "rbxassetid://148831127"
+    },
+    {
+        "name": "BalloonFloat",
+        "id": "rbxassetid://148831003"
+    },
+    {
+        "name": "SkiDown_Animation",
+        "id": "rbxassetid://142890187"
+    },
+    {
+        "name": "SkiSwing_Animation",
+        "id": "rbxassetid://142890086"
+    },
+    {
+        "name": "HockeyCheck",
+        "id": "rbxassetid://142495255"
+    },
+    {
+        "name": "HockeyGrip",
+        "id": "rbxassetid://142486448"
+    },
+    {
+        "name": "HockeySwing2",
+        "id": "rbxassetid://142486118"
+    },
+    {
+        "name": "HockeySwing",
+        "id": "rbxassetid://142485629"
+    },
+    {
+        "name": "TorsoAxisTest",
+        "id": "rbxassetid://137390720"
+    },
+    {
+        "name": "PyroOverheadAxeSwing",
+        "id": "rbxassetid://136938138"
+    },
+    {
+        "name": "invisObject",
+        "id": "rbxassetid://136807611"
+    },
+    {
+        "name": "invisObject",
+        "id": "rbxassetid://136807610"
+    },
+    {
+        "name": "invisObject",
+        "id": "rbxassetid://136807365"
+    },
+    {
+        "name": "promiseItWorks",
+        "id": "rbxassetid://136805353"
+    },
+    {
+        "name": "promiseItWorks",
+        "id": "rbxassetid://136805199"
+    },
+    {
+        "name": "Barrel3",
+        "id": "rbxassetid://136801964"
+    },
+    {
+        "name": "BarrelDos",
+        "id": "rbxassetid://136799807"
+    },
+    {
+        "name": "DoABarrelRoll",
+        "id": "rbxassetid://136796812"
+    },
+    {
+        "name": "BarrelRoll",
+        "id": "rbxassetid://136796440"
+    },
+    {
+        "name": "finalSlash2",
+        "id": "rbxassetid://136793475"
+    },
+    {
+        "name": "finalSlash2",
+        "id": "rbxassetid://136791863"
+    },
+    {
+        "name": "finalSlash",
+        "id": "rbxassetid://136791180"
+    },
+    {
+        "name": "123",
+        "id": "rbxassetid://136778923"
+    },
+    {
+        "name": "qwe",
+        "id": "rbxassetid://136778640"
+    },
+    {
+        "name": "testAnim2",
+        "id": "rbxassetid://136774723"
+    },
+    {
+        "name": "testAnim",
+        "id": "rbxassetid://136774091"
+    },
+    {
+        "name": "Dance3",
+        "id": "rbxassetid://132546884"
+    },
+    {
+        "name": "Dance2",
+        "id": "rbxassetid://132546839"
+    },
+    {
+        "name": "DanceTest",
+        "id": "rbxassetid://132149582"
+    },
+    {
+        "name": "WalkLoop",
+        "id": "rbxassetid://130591500"
+    },
+    {
+        "name": "FutureBowFire",
+        "id": "rbxassetid://130039616"
+    },
+    {
+        "name": "FutureBowEquip",
+        "id": "rbxassetid://130037764"
+    },
+    {
+        "name": "Dance",
+        "id": "rbxassetid://130018893"
+    },
+    {
+        "name": "lunge",
+        "id": "rbxassetid://129967478"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://129967390"
+    },
+    {
+        "name": "LaughAnimation",
+        "id": "rbxassetid://129423131"
+    },
+    {
+        "name": "CheerAnim",
+        "id": "rbxassetid://129423030"
+    },
+    {
+        "name": "aniplease",
+        "id": "rbxassetid://129342287"
+    },
+    {
+        "name": "KeyframeSequence",
+        "id": "rbxassetid://129341533"
+    },
+    {
+        "name": "axe2_2",
+        "id": "rbxassetid://128869083"
+    },
+    {
+        "name": "PointAnimation",
+        "id": "rbxassetid://128853357"
+    },
+    {
+        "name": "WaveAnimation",
+        "id": "rbxassetid://128777973"
+    },
+    {
+        "name": "MadMaxAxeSlash",
+        "id": "rbxassetid://128239271"
+    },
+    {
+        "name": "MadMaxAxeEquip",
+        "id": "rbxassetid://128234455"
+    },
+    {
+        "name": "KOSSGustHornBlow",
+        "id": "rbxassetid://127405384"
+    },
+    {
+        "name": "test2please",
+        "id": "rbxassetid://127310840"
+    },
+    {
+        "name": "test2please",
+        "id": "rbxassetid://127310646"
+    },
+    {
+        "name": "testplease",
+        "id": "rbxassetid://127309083"
+    },
+    {
+        "name": "ApeArmsPunch3",
+        "id": "rbxassetid://126753849"
+    },
+    {
+        "name": "ApeArmsPunch2",
+        "id": "rbxassetid://126752874"
+    },
+    {
+        "name": "ApeArmsPunch1",
+        "id": "rbxassetid://126749742"
+    },
+    {
+        "name": "ApeArmsIdle",
+        "id": "rbxassetid://126741747"
+    },
+    {
+        "name": "ApeArmsIdle",
+        "id": "rbxassetid://126741153"
+    },
+    {
+        "name": "HornPotionRun",
+        "id": "rbxassetid://126707392"
+    },
+    {
+        "name": "ToolAnimation",
+        "id": "rbxassetid://125750867"
+    },
+    {
+        "name": "ClimbAnimation",
+        "id": "rbxassetid://125750800"
+    },
+    {
+        "name": "FallAnimation",
+        "id": "rbxassetid://125750759"
+    },
+    {
+        "name": "JumpAnimation",
+        "id": "rbxassetid://125750702"
+    },
+    {
+        "name": "Idle2Animation",
+        "id": "rbxassetid://125750618"
+    },
+    {
+        "name": "Idle1Animation",
+        "id": "rbxassetid://125750544"
+    },
+    {
+        "name": "WalkAnimation",
+        "id": "rbxassetid://125749145"
+    },
+    {
+        "name": "WalrusGunEquip",
+        "id": "rbxassetid://123895982"
+    },
+    {
+        "name": "ANIM_LanternSwish",
+        "id": "rbxassetid://123125265"
+    },
+    {
+        "name": "ANIM_LanternHold",
+        "id": "rbxassetid://123125224"
+    },
+    {
+        "name": "ANIM_LanternEquip",
+        "id": "rbxassetid://123125189"
+    },
+    {
+        "name": "InstantCampfireHotDogEatAnimation",
+        "id": "rbxassetid://123101323"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://122358216"
+    },
+    {
+        "name": "ANIM_Equip",
+        "id": "rbxassetid://122358185"
+    },
+    {
+        "name": "PunkBraceletHeadbang",
+        "id": "rbxassetid://122342062"
+    },
+    {
+        "name": "PunkBraceletEquip",
+        "id": "rbxassetid://122319948"
+    },
+    {
+        "name": "ANIM_DogSit",
+        "id": "rbxassetid://121574294"
+    },
+    {
+        "name": "ANIM_DogSit",
+        "id": "rbxassetid://121572214"
+    },
+    {
+        "name": "ANIM_DogRun",
+        "id": "rbxassetid://121572181"
+    },
+    {
+        "name": "ANIM_DogIdle",
+        "id": "rbxassetid://121572113"
+    },
+    {
+        "name": "ANIM_VeggieArmsEat",
+        "id": "rbxassetid://121563411"
+    },
+    {
+        "name": "VeggieArmsEquipAnimation",
+        "id": "rbxassetid://121560514"
+    },
+    {
+        "name": "ANIM_EndSmash",
+        "id": "rbxassetid://120735762"
+    },
+    {
+        "name": "ANIM_BeginSmash",
+        "id": "rbxassetid://120735709"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://120735631"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://120732732"
+    },
+    {
+        "name": "ANIM_Spin",
+        "id": "rbxassetid://120732433"
+    },
+    {
+        "name": "ANIM_Spin",
+        "id": "rbxassetid://120732428"
+    },
+    {
+        "name": "ANIM_EndSmash",
+        "id": "rbxassetid://120732028"
+    },
+    {
+        "name": "ANIM_BeginSmash",
+        "id": "rbxassetid://120731972"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://120728413"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://120727226"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://120724995"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://120645297"
+    },
+    {
+        "name": "ANIM_Swing",
+        "id": "rbxassetid://120645112"
+    },
+    {
+        "name": "ANIM_Run",
+        "id": "rbxassetid://120642404"
+    },
+    {
+        "name": "ANIM_Idle",
+        "id": "rbxassetid://120642355"
+    },
+    {
+        "name": "ANIM_Equip",
+        "id": "rbxassetid://120642286"
+    },
+    {
+        "name": "ANIM_Equip",
+        "id": "rbxassetid://120628042"
+    },
+    {
+        "name": "ANIM_PlaceRocket",
+        "id": "rbxassetid://119810554"
+    },
+    {
+        "name": "ANIM_HoldRocket",
+        "id": "rbxassetid://119810509"
+    },
+    {
+        "name": "ANIM_FlyGlider",
+        "id": "rbxassetid://119783214"
+    },
+    {
+        "name": "reloadplease",
+        "id": "rbxassetid://116695140"
+    },
+    {
+        "name": "holdplz2",
+        "id": "rbxassetid://116690317"
+    },
+    {
+        "name": "ANIM_OgreWarchant",
+        "id": "rbxassetid://116083498"
+    },
+    {
+        "name": "OGRE_Warchant",
+        "id": "rbxassetid://116083279"
+    },
+    {
+        "name": "ANIM_OgreWarchant",
+        "id": "rbxassetid://116048217"
+    },
+    {
+        "name": "ANIM_OgrePunt",
+        "id": "rbxassetid://116048158"
+    },
+    {
+        "name": "ANIM_OgreHold",
+        "id": "rbxassetid://116048079"
+    },
+    {
+        "name": "ANIM_OgreOnFire",
+        "id": "rbxassetid://116047903"
+    },
+    {
+        "name": "JarOpenAnim2",
+        "id": "rbxassetid://115308061"
+    },
+    {
+        "name": "JarOpen",
+        "id": "rbxassetid://115304940"
+    },
+    {
+        "name": "layinghold2",
+        "id": "rbxassetid://113246235"
+    },
+    {
+        "name": "testRun4",
+        "id": "rbxassetid://112504572"
+    },
+    {
+        "name": "testRun3",
+        "id": "rbxassetid://112494584"
+    },
+    {
+        "name": "testRun2",
+        "id": "rbxassetid://112358813"
+    },
+    {
+        "name": "flip3please",
+        "id": "rbxassetid://111898867"
+    },
+    {
+        "name": "flip2please",
+        "id": "rbxassetid://111898513"
+    },
+    {
+        "name": "pleaseflip",
+        "id": "rbxassetid://111880514"
+    },
+    {
+        "name": "testrun",
+        "id": "rbxassetid://109530008"
+    },
+    {
+        "name": "ha2",
+        "id": "rbxassetid://107456513"
+    },
+    {
+        "name": "bla",
+        "id": "rbxassetid://107455394"
+    },
+    {
+        "name": "riiiide",
+        "id": "rbxassetid://106772613"
+    },
+    {
+        "name": "ride3",
+        "id": "rbxassetid://106771723"
+    },
+    {
+        "name": "ride",
+        "id": "rbxassetid://106759209"
+    },
+    {
+        "name": "HelicopterArms2",
+        "id": "rbxassetid://106634763"
+    },
+    {
+        "name": "HelicopterArms",
+        "id": "rbxassetid://106629350"
+    },
+    {
+        "name": "sin",
+        "id": "rbxassetid://105928917"
+    },
+    {
+        "name": "KeyframeSequence",
+        "id": "rbxassetid://105927762"
+    },
+    {
+        "name": "spinani2",
+        "id": "rbxassetid://105925870"
+    },
+    {
+        "name": "spinani2",
+        "id": "rbxassetid://105921722"
+    },
+    {
+        "name": "spinani",
+        "id": "rbxassetid://105919599"
+    },
+    {
+        "name": "attack",
+        "id": "rbxassetid://105371766"
+    },
+    {
+        "name": "idleAnim",
+        "id": "rbxassetid://105371735"
+    },
+    {
+        "name": "idleAnim2",
+        "id": "rbxassetid://105371431"
+    },
+    {
+        "name": "idleAnim",
+        "id": "rbxassetid://105371229"
+    },
+    {
+        "name": "attack",
+        "id": "rbxassetid://105352446"
+    },
+    {
+        "name": "testtrebuchetani",
+        "id": "rbxassetid://105287044"
+    },
+    {
+        "name": "DoubleClawAttack",
+        "id": "rbxassetid://105211514"
+    },
+    {
+        "name": "AnimEdit_Export",
+        "id": "rbxassetid://104673992"
+    },
+    {
+        "name": "AnimEdit_Export",
+        "id": "rbxassetid://104514993"
+    },
+    {
+        "name": "AnimEdit_Export",
+        "id": "rbxassetid://104506550"
+    },
+    {
+        "name": "EatBeans",
+        "id": "rbxassetid://103822775"
+    },
+    {
+        "name": "ANIM_FurnoSword2",
+        "id": "rbxassetid://103809023"
+    },
+    {
+        "name": "ANIM_PyroxClawAttack2",
+        "id": "rbxassetid://103808695"
+    },
+    {
+        "name": "ANIM_PyroxClawAttack",
+        "id": "rbxassetid://103804968"
+    },
+    {
+        "name": "ANIM_HeroFactoryRunV2",
+        "id": "rbxassetid://103803396"
+    },
+    {
+        "name": "ANIM_FurnoArms",
+        "id": "rbxassetid://103803223"
+    },
+    {
+        "name": "ANIM_HeroFactoryRun",
+        "id": "rbxassetid://103802539"
+    },
+    {
+        "name": "ANIM_FurnoWalkTestArms2",
+        "id": "rbxassetid://103799214"
+    },
+    {
+        "name": "ANIM_FurnoWalkTestArms",
+        "id": "rbxassetid://103798833"
+    },
+    {
+        "name": "ANIM_FurnoWalkTestLegs",
+        "id": "rbxassetid://103798802"
+    },
+    {
+        "name": "ANIM_FurnoWalk",
+        "id": "rbxassetid://103765907"
+    },
+    {
+        "name": "ANIM_FurnoSword",
+        "id": "rbxassetid://103760641"
+    },
+    {
+        "name": "ANIM_FurnoShieldV2",
+        "id": "rbxassetid://103758868"
+    },
+    {
+        "name": "ANIM_ShieldOfAwesomeTest1",
+        "id": "rbxassetid://103752282"
+    },
+    {
+        "name": "ANIM_FurnoShield",
+        "id": "rbxassetid://103744157"
+    },
+    {
+        "name": "ANIM_Run",
+        "id": "rbxassetid://103281385"
+    },
+    {
+        "name": "ANIM_Pounce",
+        "id": "rbxassetid://103281365"
+    },
+    {
+        "name": "ANIM_Idle",
+        "id": "rbxassetid://103281356"
+    },
+    {
+        "name": "ANIM_EndJump",
+        "id": "rbxassetid://103281348"
+    },
+    {
+        "name": "ANIM_Bite",
+        "id": "rbxassetid://103281341"
+    },
+    {
+        "name": "ANIM_BeginJump",
+        "id": "rbxassetid://103281327"
+    },
+    {
+        "name": "AnimEdit_Export",
+        "id": "rbxassetid://102494000"
+    },
+    {
+        "name": "AnimEdit_Export",
+        "id": "rbxassetid://102492689"
+    },
+    {
+        "name": "ANIM_FootballDance1",
+        "id": "rbxassetid://101862746"
+    },
+    {
+        "name": "ANIM_FixedSpike1",
+        "id": "rbxassetid://101851767"
+    },
+    {
+        "name": "ANIM_UpdatedSpike1",
+        "id": "rbxassetid://101850170"
+    },
+    {
+        "name": "ANIM_Spike1",
+        "id": "rbxassetid://101844532"
+    },
+    {
+        "name": "ANIM_Spike1",
+        "id": "rbxassetid://101843538"
+    },
+    {
+        "name": "SpikeAnim1",
+        "id": "rbxassetid://101842738"
+    },
+    {
+        "name": "ReadyAim2",
+        "id": "rbxassetid://101097290"
+    },
+    {
+        "name": "WitchTemp",
+        "id": "rbxassetid://101078539"
+    },
+    {
+        "name": "BroomHoldIdle",
+        "id": "rbxassetid://101074752"
+    },
+    {
+        "name": "Release",
+        "id": "rbxassetid://101070520"
+    },
+    {
+        "name": "HandsTogetherSlow",
+        "id": "rbxassetid://101051273"
+    },
+    {
+        "name": "ReleaseSlow",
+        "id": "rbxassetid://101035724"
+    },
+    {
+        "name": "ReloadLoop2",
+        "id": "rbxassetid://101004654"
+    },
+    {
+        "name": "EndReload",
+        "id": "rbxassetid://101001475"
+    },
+    {
+        "name": "ReloadLoop",
+        "id": "rbxassetid://101000991"
+    },
+    {
+        "name": "StartReload",
+        "id": "rbxassetid://100999683"
+    },
+    {
+        "name": "StopFire",
+        "id": "rbxassetid://100998595"
+    },
+    {
+        "name": "FireRockets",
+        "id": "rbxassetid://100998342"
+    },
+    {
+        "name": "ReadyAimIdle",
+        "id": "rbxassetid://100917701"
+    },
+    {
+        "name": "ReadyAim",
+        "id": "rbxassetid://100900609"
+    },
+    {
+        "name": "pitch",
+        "id": "rbxassetid://100356641"
+    },
+    {
+        "name": "chargearm5",
+        "id": "rbxassetid://100356237"
+    },
+    {
+        "name": "chargearm4",
+        "id": "rbxassetid://100355854"
+    },
+    {
+        "name": "charegearm3",
+        "id": "rbxassetid://100355175"
+    },
+    {
+        "name": "chargearm",
+        "id": "rbxassetid://100354942"
+    },
+    {
+        "name": "pitchhold2",
+        "id": "rbxassetid://100353779"
+    },
+    {
+        "name": "pitchforkHold",
+        "id": "rbxassetid://100353414"
+    },
+    {
+        "name": "runcharge",
+        "id": "rbxassetid://100348530"
+    },
+    {
+        "name": "pipethrow2",
+        "id": "rbxassetid://100289053"
+    },
+    {
+        "name": "yayMONEY",
+        "id": "rbxassetid://99815141"
+    },
+    {
+        "name": "MAKEITRAIN",
+        "id": "rbxassetid://99807079"
+    },
+    {
+        "name": "hold3",
+        "id": "rbxassetid://99200153"
+    },
+    {
+        "name": "pluck",
+        "id": "rbxassetid://99198989"
+    },
+    {
+        "name": "hold2",
+        "id": "rbxassetid://99198392"
+    },
+    {
+        "name": "hold",
+        "id": "rbxassetid://99196838"
+    },
+    {
+        "name": "FlyAnim",
+        "id": "rbxassetid://99031477"
+    },
+    {
+        "name": "ChargeEnergyBall2",
+        "id": "rbxassetid://98457346"
+    },
+    {
+        "name": "ChargeEnergyBall",
+        "id": "rbxassetid://98456177"
+    },
+    {
+        "name": "nothinbg",
+        "id": "rbxassetid://98454170"
+    },
+    {
+        "name": "reload1",
+        "id": "rbxassetid://97900365"
+    },
+    {
+        "name": "hold2",
+        "id": "rbxassetid://97898532"
+    },
+    {
+        "name": "fire3",
+        "id": "rbxassetid://97898138"
+    },
+    {
+        "name": "fire2",
+        "id": "rbxassetid://97897857"
+    },
+    {
+        "name": "hold",
+        "id": "rbxassetid://97897239"
+    },
+    {
+        "name": "reload2",
+        "id": "rbxassetid://97885754"
+    },
+    {
+        "name": "fireani",
+        "id": "rbxassetid://97884303"
+    },
+    {
+        "name": "KeyframeSequence",
+        "id": "rbxassetid://97884040"
+    },
+    {
+        "name": "revolveridle",
+        "id": "rbxassetid://97883794"
+    },
+    {
+        "name": "Idle",
+        "id": "rbxassetid://97206298"
+    },
+    {
+        "name": "FlyAnim",
+        "id": "rbxassetid://97172005"
+    },
+    {
+        "name": "LandingJets",
+        "id": "rbxassetid://97171309"
+    },
+    {
+        "name": "JumpJets",
+        "id": "rbxassetid://97170520"
+    },
+    {
+        "name": "test",
+        "id": "rbxassetid://97169019"
+    },
+    {
+        "name": "slash2",
+        "id": "rbxassetid://96677230"
+    },
+    {
+        "name": "slash1",
+        "id": "rbxassetid://96676712"
+    },
+    {
+        "name": "hold",
+        "id": "rbxassetid://96675769"
+    },
+    {
+        "name": "kick2",
+        "id": "rbxassetid://96621537"
+    },
+    {
+        "name": "spartainKick",
+        "id": "rbxassetid://96619712"
+    },
+    {
+        "name": "TwoHandRightSwing",
+        "id": "rbxassetid://96560758"
+    },
+    {
+        "name": "TwoHandSlash",
+        "id": "rbxassetid://96559477"
+    },
+    {
+        "name": "DaggerHold",
+        "id": "rbxassetid://96559165"
+    },
+    {
+        "name": "Stab2",
+        "id": "rbxassetid://96559161"
+    },
+    {
+        "name": "Stab",
+        "id": "rbxassetid://96559159"
+    },
+    {
+        "name": "SimpleTest1",
+        "id": "rbxassetid://96556734"
+    },
+    {
+        "name": "SitAnim",
+        "id": "rbxassetid://96090042"
+    },
+    {
+        "name": "ScytheSlash",
+        "id": "rbxassetid://96071496"
+    },
+    {
+        "name": "ScytheIdle2",
+        "id": "rbxassetid://96065457"
+    },
+    {
+        "name": "ScytheEquip2",
+        "id": "rbxassetid://96064636"
+    },
+    {
+        "name": "ScytheIdle",
+        "id": "rbxassetid://96063177"
+    },
+    {
+        "name": "ScytheEquip",
+        "id": "rbxassetid://96060721"
+    },
+    {
+        "name": "KFS",
+        "id": "rbxassetid://96059718"
+    },
+    {
+        "name": "Panic",
+        "id": "rbxassetid://95424077"
+    },
+    {
+        "name": "axehit",
+        "id": "rbxassetid://95420574"
+    },
+    {
+        "name": "psychowalk2",
+        "id": "rbxassetid://95415687"
+    },
+    {
+        "name": "psychowalk",
+        "id": "rbxassetid://95415492"
+    },
+    {
+        "name": "stenreload",
+        "id": "rbxassetid://95390631"
+    },
+    {
+        "name": "StenFire2",
+        "id": "rbxassetid://95390146"
+    },
+    {
+        "name": "stenFire",
+        "id": "rbxassetid://95389971"
+    },
+    {
+        "name": "StenIdle",
+        "id": "rbxassetid://95389685"
+    },
+    {
+        "name": "lugerreload2",
+        "id": "rbxassetid://95384819"
+    },
+    {
+        "name": "lugerreload",
+        "id": "rbxassetid://95384639"
+    },
+    {
+        "name": "lugerfire2",
+        "id": "rbxassetid://95383980"
+    },
+    {
+        "name": "lugerfire",
+        "id": "rbxassetid://95383761"
+    },
+    {
+        "name": "BombThrow",
+        "id": "rbxassetid://94861252"
+    },
+    {
+        "name": "BombHold2",
+        "id": "rbxassetid://94861246"
+    },
+    {
+        "name": "StandPerfectlyStill",
+        "id": "rbxassetid://94853940"
+    },
+    {
+        "name": "ExecuteAnim2",
+        "id": "rbxassetid://94790629"
+    },
+    {
+        "name": "SwingAnim",
+        "id": "rbxassetid://94790076"
+    },
+    {
+        "name": "IdleAnim",
+        "id": "rbxassetid://94789762"
+    },
+    {
+        "name": "IdleAnim",
+        "id": "rbxassetid://94789364"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://94788942"
+    },
+    {
+        "name": "NewFireAndReload",
+        "id": "rbxassetid://94771598"
+    },
+    {
+        "name": "Drink",
+        "id": "rbxassetid://94700140"
+    },
+    {
+        "name": "Shotgunequip3",
+        "id": "rbxassetid://94242777"
+    },
+    {
+        "name": "Shotgunequip2",
+        "id": "rbxassetid://94239711"
+    },
+    {
+        "name": "Shotgunpump",
+        "id": "rbxassetid://94236391"
+    },
+    {
+        "name": "Shotgunequip",
+        "id": "rbxassetid://94234491"
+    },
+    {
+        "name": "slam",
+        "id": "rbxassetid://94190213"
+    },
+    {
+        "name": "ThrustAnim2",
+        "id": "rbxassetid://94161333"
+    },
+    {
+        "name": "SlashAnim2",
+        "id": "rbxassetid://94161088"
+    },
+    {
+        "name": "OverheadAnim2",
+        "id": "rbxassetid://94160738"
+    },
+    {
+        "name": "EquipAnim5",
+        "id": "rbxassetid://94160581"
+    },
+    {
+        "name": "EquipAnim4",
+        "id": "rbxassetid://94160427"
+    },
+    {
+        "name": "ThrowAnim2",
+        "id": "rbxassetid://94157627"
+    },
+    {
+        "name": "UnEquipAnim2",
+        "id": "rbxassetid://94156580"
+    },
+    {
+        "name": "EquipAnim2",
+        "id": "rbxassetid://94156535"
+    },
+    {
+        "name": "IdleEquipAnim2",
+        "id": "rbxassetid://94156486"
+    },
+    {
+        "name": "EquipAnim3",
+        "id": "rbxassetid://94128300"
+    },
+    {
+        "name": "SlingshotFire2",
+        "id": "rbxassetid://94126022"
+    },
+    {
+        "name": "SlingshotEquip2",
+        "id": "rbxassetid://94123357"
+    },
+    {
+        "name": "RocketReload",
+        "id": "rbxassetid://94121406"
+    },
+    {
+        "name": "RocketFireAndReload11",
+        "id": "rbxassetid://94118992"
+    },
+    {
+        "name": "RocketIdle",
+        "id": "rbxassetid://94118240"
+    },
+    {
+        "name": "RocketFireAndReload10",
+        "id": "rbxassetid://94116824"
+    },
+    {
+        "name": "SlingshotEquip",
+        "id": "rbxassetid://94116311"
+    },
+    {
+        "name": "RocketFireAndReload9",
+        "id": "rbxassetid://94113401"
+    },
+    {
+        "name": "ThrustAnim",
+        "id": "rbxassetid://94110233"
+    },
+    {
+        "name": "RocketFireAndReload8",
+        "id": "rbxassetid://94109334"
+    },
+    {
+        "name": "IdleAnim3",
+        "id": "rbxassetid://94108418"
+    },
+    {
+        "name": "RocketFireAndReload7",
+        "id": "rbxassetid://94108052"
+    },
+    {
+        "name": "IdleAnim2",
+        "id": "rbxassetid://94107807"
+    },
+    {
+        "name": "RocketFireAndReload6",
+        "id": "rbxassetid://94107611"
+    },
+    {
+        "name": "RocketFireAndReload5",
+        "id": "rbxassetid://94106741"
+    },
+    {
+        "name": "RocketFireAndReload4",
+        "id": "rbxassetid://94105760"
+    },
+    {
+        "name": "RocketFireAndReload3",
+        "id": "rbxassetid://94105089"
+    },
+    {
+        "name": "RocketFireAndReload2",
+        "id": "rbxassetid://94104867"
+    },
+    {
+        "name": "OverheadAnim",
+        "id": "rbxassetid://94099358"
+    },
+    {
+        "name": "RocketFireAndReload",
+        "id": "rbxassetid://94098253"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://94097701"
+    },
+    {
+        "name": "IdleAnim",
+        "id": "rbxassetid://94096418"
+    },
+    {
+        "name": "UnequipAnim2",
+        "id": "rbxassetid://94095929"
+    },
+    {
+        "name": "ThrowAnim",
+        "id": "rbxassetid://94071694"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://94068974"
+    },
+    {
+        "name": "MoveArm",
+        "id": "rbxassetid://94068278"
+    },
+    {
+        "name": "Shoot2GvM",
+        "id": "rbxassetid://93713389"
+    },
+    {
+        "name": "ShootGvM",
+        "id": "rbxassetid://93712419"
+    },
+    {
+        "name": "IdleGvM",
+        "id": "rbxassetid://93711728"
+    },
+    {
+        "name": "staffpound",
+        "id": "rbxassetid://93696468"
+    },
+    {
+        "name": "Summon",
+        "id": "rbxassetid://93693205"
+    },
+    {
+        "name": "Enrage",
+        "id": "rbxassetid://93648331"
+    },
+    {
+        "name": "Inject2",
+        "id": "rbxassetid://93642075"
+    },
+    {
+        "name": "Inject",
+        "id": "rbxassetid://93638686"
+    },
+    {
+        "name": "InjectAnim2",
+        "id": "rbxassetid://93636142"
+    },
+    {
+        "name": "InjectAnim2",
+        "id": "rbxassetid://93635868"
+    },
+    {
+        "name": "Inject",
+        "id": "rbxassetid://93633990"
+    },
+    {
+        "name": "thrust2",
+        "id": "rbxassetid://93633158"
+    },
+    {
+        "name": "staffspin",
+        "id": "rbxassetid://93631019"
+    },
+    {
+        "name": "staffthrust",
+        "id": "rbxassetid://93630210"
+    },
+    {
+        "name": "NewNoogieLoop",
+        "id": "rbxassetid://93604135"
+    },
+    {
+        "name": "NewNoogie",
+        "id": "rbxassetid://93603335"
+    },
+    {
+        "name": "IdleStanding2",
+        "id": "rbxassetid://93191852"
+    },
+    {
+        "name": "ThrowStar3",
+        "id": "rbxassetid://93185821"
+    },
+    {
+        "name": "ThrowStar2",
+        "id": "rbxassetid://93185360"
+    },
+    {
+        "name": "MaceSpin",
+        "id": "rbxassetid://93180890"
+    },
+    {
+        "name": "Blowgun2",
+        "id": "rbxassetid://93165731"
+    },
+    {
+        "name": "Blowgun2",
+        "id": "rbxassetid://93165286"
+    },
+    {
+        "name": "Blowgun",
+        "id": "rbxassetid://93164833"
+    },
+    {
+        "name": "NoogieLoop",
+        "id": "rbxassetid://93158647"
+    },
+    {
+        "name": "Noogie1",
+        "id": "rbxassetid://93157368"
+    },
+    {
+        "name": "BladeCharge",
+        "id": "rbxassetid://93107367"
+    },
+    {
+        "name": "BladeCharge",
+        "id": "rbxassetid://93107107"
+    },
+    {
+        "name": "BladeCharge",
+        "id": "rbxassetid://93106911"
+    },
+    {
+        "name": "pose1",
+        "id": "rbxassetid://93060724"
+    },
+    {
+        "name": "pose2",
+        "id": "rbxassetid://93060716"
+    },
+    {
+        "name": "pose3",
+        "id": "rbxassetid://93060712"
+    },
+    {
+        "name": "pose4",
+        "id": "rbxassetid://93060709"
+    },
+    {
+        "name": "uppercut",
+        "id": "rbxassetid://93051479"
+    },
+    {
+        "name": "LOLOLOLO",
+        "id": "rbxassetid://93045404"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92625138"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92625019"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92605860"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92605502"
+    },
+    {
+        "name": "BLAH",
+        "id": "rbxassetid://92603242"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92601994"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92601293"
+    },
+    {
+        "name": "ANIM_StaffEquip2",
+        "id": "rbxassetid://92597490"
+    },
+    {
+        "name": "ANIM_SwordEquip2",
+        "id": "rbxassetid://92597324"
+    },
+    {
+        "name": "ANIM_SwordEquip2",
+        "id": "rbxassetid://92596924"
+    },
+    {
+        "name": "LHoldV3",
+        "id": "rbxassetid://92594426"
+    },
+    {
+        "name": "LHoldV2",
+        "id": "rbxassetid://92591304"
+    },
+    {
+        "name": "LHold",
+        "id": "rbxassetid://92590020"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92583811"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://92582630"
+    },
+    {
+        "name": "ShieldBash",
+        "id": "rbxassetid://92576399"
+    },
+    {
+        "name": "ShieldBash",
+        "id": "rbxassetid://92575755"
+    },
+    {
+        "name": "ANIM_Roll",
+        "id": "rbxassetid://92162915"
+    },
+    {
+        "name": "ANIM_StaffSmash",
+        "id": "rbxassetid://92155463"
+    },
+    {
+        "name": "ANIM_StaffSlash",
+        "id": "rbxassetid://92155394"
+    },
+    {
+        "name": "ANIM_StaffEquip",
+        "id": "rbxassetid://92155268"
+    },
+    {
+        "name": "ANIM_NunSlash",
+        "id": "rbxassetid://92155146"
+    },
+    {
+        "name": "ANIM_NunEquip",
+        "id": "rbxassetid://92155035"
+    },
+    {
+        "name": "ANIM_SaiSlash",
+        "id": "rbxassetid://92154859"
+    },
+    {
+        "name": "ANIM_SaiEquip",
+        "id": "rbxassetid://92154762"
+    },
+    {
+        "name": "ANIM_SwordSlash",
+        "id": "rbxassetid://92153881"
+    },
+    {
+        "name": "ANIM_SwordEquip",
+        "id": "rbxassetid://92153767"
+    },
+    {
+        "name": "ANIM_SaiSlash",
+        "id": "rbxassetid://92108526"
+    },
+    {
+        "name": "ANIM_NunSlash",
+        "id": "rbxassetid://92076168"
+    },
+    {
+        "name": "ANIM_StaffEquip",
+        "id": "rbxassetid://92076052"
+    },
+    {
+        "name": "ANIM_StaffSmash",
+        "id": "rbxassetid://92076033"
+    },
+    {
+        "name": "ANIM_StaffSlash",
+        "id": "rbxassetid://92075912"
+    },
+    {
+        "name": "Run",
+        "id": "rbxassetid://91510033"
+    },
+    {
+        "name": "ANIM_Roll",
+        "id": "rbxassetid://91496899"
+    },
+    {
+        "name": "ANIM_NunEquip",
+        "id": "rbxassetid://91432186"
+    },
+    {
+        "name": "ANIM_SwordSlash",
+        "id": "rbxassetid://91431725"
+    },
+    {
+        "name": "DodgeTest",
+        "id": "rbxassetid://91381776"
+    },
+    {
+        "name": "DodgeTest",
+        "id": "rbxassetid://91381081"
+    },
+    {
+        "name": "SwordEquip",
+        "id": "rbxassetid://91354198"
+    },
+    {
+        "name": "selfharm2",
+        "id": "rbxassetid://91346946"
+    },
+    {
+        "name": "selfharm",
+        "id": "rbxassetid://91346439"
+    },
+    {
+        "name": "KeyframeSequence",
+        "id": "rbxassetid://91277357"
+    },
+    {
+        "name": "gliderhold",
+        "id": "rbxassetid://90872566"
+    },
+    {
+        "name": "gliderfly",
+        "id": "rbxassetid://90872539"
+    },
+    {
+        "name": "FlyAnimation2",
+        "id": "rbxassetid://90828653"
+    },
+    {
+        "name": "Fly",
+        "id": "rbxassetid://90825039"
+    },
+    {
+        "name": "beeani",
+        "id": "rbxassetid://90814669"
+    },
+    {
+        "name": "StoneWandCast",
+        "id": "rbxassetid://90721125"
+    },
+    {
+        "name": "StoneWandIdle",
+        "id": "rbxassetid://90720825"
+    },
+    {
+        "name": "StaffSlam",
+        "id": "rbxassetid://90615571"
+    },
+    {
+        "name": "StaffIdle",
+        "id": "rbxassetid://90615149"
+    },
+    {
+        "name": "clawsup",
+        "id": "rbxassetid://90117804"
+    },
+    {
+        "name": "ANIM_IdleHold_FixedPrio",
+        "id": "rbxassetid://89493725"
+    },
+    {
+        "name": "ANIM_IdleHold_FixedPrio",
+        "id": "rbxassetid://89493383"
+    },
+    {
+        "name": "ANIM_Idle_FixedPrio",
+        "id": "rbxassetid://89493344"
+    },
+    {
+        "name": "gunfire",
+        "id": "rbxassetid://89456847"
+    },
+    {
+        "name": "ForcePush",
+        "id": "rbxassetid://89343907"
+    },
+    {
+        "name": "saberIdle2",
+        "id": "rbxassetid://89343416"
+    },
+    {
+        "name": "saberBlock2",
+        "id": "rbxassetid://89343139"
+    },
+    {
+        "name": "SaberBlock1",
+        "id": "rbxassetid://89342584"
+    },
+    {
+        "name": "saberSlash4",
+        "id": "rbxassetid://89342278"
+    },
+    {
+        "name": "saberSlash2",
+        "id": "rbxassetid://89341036"
+    },
+    {
+        "name": "axe2",
+        "id": "rbxassetid://89289879"
+    },
+    {
+        "name": "RecoilMid",
+        "id": "rbxassetid://89289443"
+    },
+    {
+        "name": "RecoilFast",
+        "id": "rbxassetid://89288901"
+    },
+    {
+        "name": "Recoil",
+        "id": "rbxassetid://89287727"
+    },
+    {
+        "name": "saberSlash",
+        "id": "rbxassetid://89286651"
+    },
+    {
+        "name": "saberSlash",
+        "id": "rbxassetid://89286534"
+    },
+    {
+        "name": "saberIdle",
+        "id": "rbxassetid://89285976"
+    },
+    {
+        "name": "axe4",
+        "id": "rbxassetid://89285652"
+    },
+    {
+        "name": "axe3",
+        "id": "rbxassetid://89285440"
+    },
+    {
+        "name": "axe2",
+        "id": "rbxassetid://89285151"
+    },
+    {
+        "name": "axe",
+        "id": "rbxassetid://89283403"
+    },
+    {
+        "name": "LightsaberHold",
+        "id": "rbxassetid://89280035"
+    },
+    {
+        "name": "AnAnimat",
+        "id": "rbxassetid://89276079"
+    },
+    {
+        "name": "Throw",
+        "id": "rbxassetid://89147993"
+    },
+    {
+        "name": "StabPunch",
+        "id": "rbxassetid://89134792"
+    },
+    {
+        "name": "DownStab",
+        "id": "rbxassetid://89133529"
+    },
+    {
+        "name": "donothing",
+        "id": "rbxassetid://89132324"
+    },
+    {
+        "name": "ANIM_HoldGrenade",
+        "id": "rbxassetid://88743592"
+    },
+    {
+        "name": "ANIM_ThrowGrenade",
+        "id": "rbxassetid://88743566"
+    },
+    {
+        "name": "DiscusThrow",
+        "id": "rbxassetid://88440037"
+    },
+    {
+        "name": "ANIM_BGearSlash",
+        "id": "rbxassetid://88115141"
+    },
+    {
+        "name": "ANIM_BRunHold",
+        "id": "rbxassetid://88106052"
+    },
+    {
+        "name": "ANIM_BIdleHold",
+        "id": "rbxassetid://88106029"
+    },
+    {
+        "name": "ANIM_BHoldGear",
+        "id": "rbxassetid://88055106"
+    },
+    {
+        "name": "PoleVaultRun",
+        "id": "rbxassetid://88038181"
+    },
+    {
+        "name": "NewLunge",
+        "id": "rbxassetid://88029282"
+    },
+    {
+        "name": "ANIM_BIdle",
+        "id": "rbxassetid://88028261"
+    },
+    {
+        "name": "HeadPosition",
+        "id": "rbxassetid://88016955"
+    },
+    {
+        "name": "Lunger",
+        "id": "rbxassetid://88016722"
+    },
+    {
+        "name": "Lungein",
+        "id": "rbxassetid://88014785"
+    },
+    {
+        "name": "IdleAnim",
+        "id": "rbxassetid://88013940"
+    },
+    {
+        "name": "Advancing",
+        "id": "rbxassetid://87986341"
+    },
+    {
+        "name": "Lunge",
+        "id": "rbxassetid://87985027"
+    },
+    {
+        "name": "IdleFencing",
+        "id": "rbxassetid://87983681"
+    },
+    {
+        "name": "ANIM_BIdle",
+        "id": "rbxassetid://87981149"
+    },
+    {
+        "name": "ANIM_BSwim",
+        "id": "rbxassetid://87947850"
+    },
+    {
+        "name": "ANIM_BSwim",
+        "id": "rbxassetid://87945539"
+    },
+    {
+        "name": "ANIM_BIdle",
+        "id": "rbxassetid://87944492"
+    },
+    {
+        "name": "ANIM_BWalkCycle2",
+        "id": "rbxassetid://87826332"
+    },
+    {
+        "name": "ANIM_BWalkCycle2",
+        "id": "rbxassetid://87825924"
+    },
+    {
+        "name": "ANIM_BWalkCycle",
+        "id": "rbxassetid://87825914"
+    },
+    {
+        "name": "ANIM_BRunFast",
+        "id": "rbxassetid://87825898"
+    },
+    {
+        "name": "ANIM_BRunCycle2",
+        "id": "rbxassetid://87825889"
+    },
+    {
+        "name": "ANIM_BRunCycle",
+        "id": "rbxassetid://87825878"
+    },
+    {
+        "name": "ANIM_BIdle",
+        "id": "rbxassetid://87825852"
+    },
+    {
+        "name": "ANIM_BEndJump",
+        "id": "rbxassetid://87825834"
+    },
+    {
+        "name": "ANIM_BClimbLadder",
+        "id": "rbxassetid://87825814"
+    },
+    {
+        "name": "ANIM_BBeginJump",
+        "id": "rbxassetid://87825795"
+    },
+    {
+        "name": "ANIM_RunCycle2",
+        "id": "rbxassetid://87783890"
+    },
+    {
+        "name": "ANIM_WalkCycle2",
+        "id": "rbxassetid://87774425"
+    },
+    {
+        "name": "ANIM_WalkCycle",
+        "id": "rbxassetid://87772275"
+    },
+    {
+        "name": "UnstableCharge",
+        "id": "rbxassetid://87761809"
+    },
+    {
+        "name": "ANIM_SwordStab1Rest",
+        "id": "rbxassetid://87703843"
+    },
+    {
+        "name": "ANIM_SwordStab1Legs",
+        "id": "rbxassetid://87703825"
+    },
+    {
+        "name": "ANIM_SwordStab1Legs",
+        "id": "rbxassetid://87701704"
+    },
+    {
+        "name": "ANIM_SwordWalk",
+        "id": "rbxassetid://87701510"
+    },
+    {
+        "name": "ANIM_SwordStance2",
+        "id": "rbxassetid://87701504"
+    },
+    {
+        "name": "ANIM_SwordStance1",
+        "id": "rbxassetid://87701492"
+    },
+    {
+        "name": "ANIM_SwordStab1Legs",
+        "id": "rbxassetid://87701466"
+    },
+    {
+        "name": "ANIM_SwordStab1",
+        "id": "rbxassetid://87701439"
+    },
+    {
+        "name": "ANIM_SwordSlash1Rest",
+        "id": "rbxassetid://87701427"
+    },
+    {
+        "name": "ANIM_SwordSlash1Legs",
+        "id": "rbxassetid://87701416"
+    },
+    {
+        "name": "ANIM_SwordSlash1",
+        "id": "rbxassetid://87701403"
+    },
+    {
+        "name": "ANIM_SwordHold3",
+        "id": "rbxassetid://87701390"
+    },
+    {
+        "name": "ANIM_SwordHold2",
+        "id": "rbxassetid://87701386"
+    },
+    {
+        "name": "ANIM_SwordHold1",
+        "id": "rbxassetid://87701356"
+    },
+    {
+        "name": "callme3",
+        "id": "rbxassetid://87684948"
+    },
+    {
+        "name": "callme2",
+        "id": "rbxassetid://87684351"
+    },
+    {
+        "name": "callme",
+        "id": "rbxassetid://87683384"
+    },
+    {
+        "name": "ANIM_Walk3",
+        "id": "rbxassetid://87609930"
+    },
+    {
+        "name": "ANIM_Walk2",
+        "id": "rbxassetid://87609920"
+    },
+    {
+        "name": "ANIM_Walk",
+        "id": "rbxassetid://87609909"
+    },
+    {
+        "name": "ANIM_JumpStart",
+        "id": "rbxassetid://87609899"
+    },
+    {
+        "name": "ANIM_JumpEnd",
+        "id": "rbxassetid://87609893"
+    },
+    {
+        "name": "ANIM_Idle",
+        "id": "rbxassetid://87609891"
+    },
+    {
+        "name": "ANIM_Fall",
+        "id": "rbxassetid://87609885"
+    },
+    {
+        "name": "ANIM_EndFall",
+        "id": "rbxassetid://87609881"
+    },
+    {
+        "name": "ANIM_ClimbStairs",
+        "id": "rbxassetid://87609875"
+    },
+    {
+        "name": "ANIM_ClimbLadder",
+        "id": "rbxassetid://87609864"
+    },
+    {
+        "name": "HeadUp",
+        "id": "rbxassetid://87313649"
+    },
+    {
+        "name": "Animation",
+        "id": "rbxassetid://87313595"
+    },
+    {
+        "name": "TailShoot",
+        "id": "rbxassetid://86895433"
+    },
+    {
+        "name": "QuadHeadUp",
+        "id": "rbxassetid://86889844"
+    },
+    {
+        "name": "QuadWalk",
+        "id": "rbxassetid://86887007"
+    },
+    {
+        "name": "callme",
+        "id": "rbxassetid://86614939"
+    },
+    {
+        "name": "TonightsForcast",
+        "id": "rbxassetid://86504773"
+    },
+    {
+        "name": "LeftSwingFast",
+        "id": "rbxassetid://86313418"
+    },
+    {
+        "name": "RightSwingFast",
+        "id": "rbxassetid://86313260"
+    },
+    {
+        "name": "callAni",
+        "id": "rbxassetid://86311374"
+    },
+    {
+        "name": "callAni",
+        "id": "rbxassetid://86310439"
+    },
+    {
+        "name": "DoubleAttack",
+        "id": "rbxassetid://86169319"
+    },
+    {
+        "name": "ThrustSlash",
+        "id": "rbxassetid://86159303"
+    },
+    {
+        "name": "UltraSlamDown",
+        "id": "rbxassetid://86146856"
+    },
+    {
+        "name": "UltraKatanaIdle",
+        "id": "rbxassetid://85877138"
+    },
+    {
+        "name": "UnsheathUltra",
+        "id": "rbxassetid://85875280"
+    },
+    {
+        "name": "ForceReleaseAnim",
+        "id": "rbxassetid://85837387"
+    },
+    {
+        "name": "djump3",
+        "id": "rbxassetid://85837259"
+    },
+    {
+        "name": "ForceChargeAnim",
+        "id": "rbxassetid://85836966"
+    },
+    {
+        "name": "djump2",
+        "id": "rbxassetid://85836344"
+    },
+    {
+        "name": "djump",
+        "id": "rbxassetid://85835312"
+    },
+    {
+        "name": "Arming",
+        "id": "rbxassetid://85726457"
+    },
+    {
+        "name": "swordPumpUp2",
+        "id": "rbxassetid://85723345"
+    },
+    {
+        "name": "swordPumpUp",
+        "id": "rbxassetid://85721204"
+    },
+    {
+        "name": "dualslash2",
+        "id": "rbxassetid://85576403"
+    },
+    {
+        "name": "RaiseArm",
+        "id": "rbxassetid://85576342"
+    },
+    {
+        "name": "dualhandslash",
+        "id": "rbxassetid://85575994"
+    },
+    {
+        "name": "HeadSwing",
+        "id": "rbxassetid://85570603"
+    },
+    {
+        "name": "WavyHands",
+        "id": "rbxassetid://85568863"
+    },
+    {
+        "name": "ANIM_PlainSlashAnim",
+        "id": "rbxassetid://84058063"
+    },
+    {
+        "name": "ANIM_PlainEquipAnim",
+        "id": "rbxassetid://84058039"
+    },
+    {
+        "name": "celestial_staff_wave",
+        "id": "rbxassetid://83994332"
+    },
+    {
+        "name": "celestial_staff_raised",
+        "id": "rbxassetid://83994319"
+    },
+    {
+        "name": "ANIM_slash",
+        "id": "rbxassetid://82272327"
+    },
+    {
+        "name": "ANIM_fire",
+        "id": "rbxassetid://82272303"
+    },
+    {
+        "name": "ANIM_equip",
+        "id": "rbxassetid://82272273"
+    },
+    {
+        "name": "ANIM_fire",
+        "id": "rbxassetid://81563152"
+    },
+    {
+        "name": "ANIM_walk",
+        "id": "rbxassetid://80980248"
+    },
+    {
+        "name": "ANIM_fly",
+        "id": "rbxassetid://80980235"
+    },
+    {
+        "name": "ANIM_equip",
+        "id": "rbxassetid://80980229"
+    },
+    {
+        "name": "ANIM_walk",
+        "id": "rbxassetid://80979216"
+    },
+    {
+        "name": "ANIM_stand",
+        "id": "rbxassetid://80979207"
+    },
+    {
+        "name": "ANIM_fly",
+        "id": "rbxassetid://80979197"
+    },
+    {
+        "name": "ANIM_equip",
+        "id": "rbxassetid://80979190"
+    },
+    {
+        "name": "Lunge",
+        "id": "rbxassetid://80395075"
+    },
+    {
+        "name": "HoldingGuns2",
+        "id": "rbxassetid://79419747"
+    },
+    {
+        "name": "HoldingGuns",
+        "id": "rbxassetid://79419402"
+    },
+    {
+        "name": "Testssss",
+        "id": "rbxassetid://79418964"
+    },
+    {
+        "name": "ANIM_walkshield",
+        "id": "rbxassetid://79155174"
+    },
+    {
+        "name": "ANIM_stash",
+        "id": "rbxassetid://79155162"
+    },
+    {
+        "name": "ANIM_slash1",
+        "id": "rbxassetid://79155154"
+    },
+    {
+        "name": "ANIM_exitshield",
+        "id": "rbxassetid://79155149"
+    },
+    {
+        "name": "ANIM_equip",
+        "id": "rbxassetid://79155144"
+    },
+    {
+        "name": "ANIM_entershield",
+        "id": "rbxassetid://79155126"
+    },
+    {
+        "name": "ANIM_endcharge",
+        "id": "rbxassetid://79155124"
+    },
+    {
+        "name": "ANIM_charge",
+        "id": "rbxassetid://79155114"
+    },
+    {
+        "name": "ANIM_begincharge",
+        "id": "rbxassetid://79155105"
+    },
+    {
+        "name": "ANIM_2stash",
+        "id": "rbxassetid://79155073"
+    },
+    {
+        "name": "ANIM_2slash",
+        "id": "rbxassetid://79155062"
+    },
+    {
+        "name": "ANIM_2equip",
+        "id": "rbxassetid://79155042"
+    },
+    {
+        "name": "ANIM_1equip",
+        "id": "rbxassetid://79155032"
+    },
+    {
+        "name": "CheckEye",
+        "id": "rbxassetid://79094862"
+    },
+    {
+        "name": "EquipStaff",
+        "id": "rbxassetid://79087399"
+    },
+    {
+        "name": "SwingStaff2",
+        "id": "rbxassetid://78675825"
+    },
+    {
+        "name": "StaffSwing",
+        "id": "rbxassetid://78622405"
+    },
+    {
+        "name": "HoldingStaff2",
+        "id": "rbxassetid://78616646"
+    },
+    {
+        "name": "UpStaff3",
+        "id": "rbxassetid://78574417"
+    },
+    {
+        "name": "HoldingStaff",
+        "id": "rbxassetid://78574410"
+    },
+    {
+        "name": "UpStaff2",
+        "id": "rbxassetid://78572792"
+    },
+    {
+        "name": "UpStaff",
+        "id": "rbxassetid://78569321"
+    },
+    {
+        "name": "Testing",
+        "id": "rbxassetid://78500923"
+    },
+    {
+        "name": "SprayPaint",
+        "id": "rbxassetid://78494810"
+    },
+    {
+        "name": "testanim",
+        "id": "rbxassetid://78494039"
+    },
+    {
+        "name": "Swing",
+        "id": "rbxassetid://78394786"
+    },
+    {
+        "name": "WalkAnim",
+        "id": "rbxassetid://78025439"
+    },
+    {
+        "name": "RapidFireAnim",
+        "id": "rbxassetid://78025314"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://77319318"
+    },
+    {
+        "name": "Swirm",
+        "id": "rbxassetid://77280244"
+    },
+    {
+        "name": "LiftAnim",
+        "id": "rbxassetid://76157307"
+    },
+    {
+        "name": "LiftAnim",
+        "id": "rbxassetid://76156569"
+    },
+    {
+        "name": "LiftAnim",
+        "id": "rbxassetid://76156446"
+    },
+    {
+        "name": "LiftAnim",
+        "id": "rbxassetid://76156068"
+    },
+    {
+        "name": "BiteAnim",
+        "id": "rbxassetid://76138892"
+    },
+    {
+        "name": "BlastAnim",
+        "id": "rbxassetid://76114643"
+    },
+    {
+        "name": "SlapAnim",
+        "id": "rbxassetid://75549420"
+    },
+    {
+        "name": "ShieldDefense",
+        "id": "rbxassetid://75522566"
+    },
+    {
+        "name": "ShieldWalk",
+        "id": "rbxassetid://75522313"
+    },
+    {
+        "name": "ShieldDefense",
+        "id": "rbxassetid://75522038"
+    },
+    {
+        "name": "ChantAnim",
+        "id": "rbxassetid://75477112"
+    },
+    {
+        "name": "ChantAnim",
+        "id": "rbxassetid://75476911"
+    },
+    {
+        "name": "ChantAnim",
+        "id": "rbxassetid://75476727"
+    },
+    {
+        "name": "StartRest6",
+        "id": "rbxassetid://75416338"
+    },
+    {
+        "name": "StartRest5",
+        "id": "rbxassetid://75415711"
+    },
+    {
+        "name": "StartRest4",
+        "id": "rbxassetid://75415556"
+    },
+    {
+        "name": "StartRest2",
+        "id": "rbxassetid://75415270"
+    },
+    {
+        "name": "StartRest3",
+        "id": "rbxassetid://75415257"
+    },
+    {
+        "name": "Rest",
+        "id": "rbxassetid://75356212"
+    },
+    {
+        "name": "StartRest",
+        "id": "rbxassetid://75356030"
+    },
+    {
+        "name": "Roar",
+        "id": "rbxassetid://75354915"
+    },
+    {
+        "name": "ButtonPress",
+        "id": "rbxassetid://75322014"
+    },
+    {
+        "name": "Toss",
+        "id": "rbxassetid://75321266"
+    },
+    {
+        "name": "BowAnim",
+        "id": "rbxassetid://74937763"
+    },
+    {
+        "name": "LiftAnim",
+        "id": "rbxassetid://74936776"
+    },
+    {
+        "name": "LiftAnim",
+        "id": "rbxassetid://74935020"
+    },
+    {
+        "name": "BowAnim",
+        "id": "rbxassetid://74934855"
+    },
+    {
+        "name": "moon_slash_sides",
+        "id": "rbxassetid://74909569"
+    },
+    {
+        "name": "moon_slash_left",
+        "id": "rbxassetid://74909537"
+    },
+    {
+        "name": "moon_slash_forward",
+        "id": "rbxassetid://74909528"
+    },
+    {
+        "name": "moon_charge",
+        "id": "rbxassetid://74909500"
+    },
+    {
+        "name": "Taunt",
+        "id": "rbxassetid://74901237"
+    },
+    {
+        "name": "OverHeadSwing3",
+        "id": "rbxassetid://74897796"
+    },
+    {
+        "name": "OverHeadSwing",
+        "id": "rbxassetid://74895784"
+    },
+    {
+        "name": "LeftSlash",
+        "id": "rbxassetid://74894663"
+    },
+    {
+        "name": "HoldToSky",
+        "id": "rbxassetid://74863286"
+    },
+    {
+        "name": "Stab2",
+        "id": "rbxassetid://74815981"
+    },
+    {
+        "name": "SimpleSlash6",
+        "id": "rbxassetid://74813494"
+    },
+    {
+        "name": "SimpleSlash5",
+        "id": "rbxassetid://74812501"
+    },
+    {
+        "name": "SimpleSlash4",
+        "id": "rbxassetid://74811755"
+    },
+    {
+        "name": "SimpleSlash3",
+        "id": "rbxassetid://74809182"
+    },
+    {
+        "name": "Stab",
+        "id": "rbxassetid://74803197"
+    },
+    {
+        "name": "SimpleSlash2",
+        "id": "rbxassetid://74801064"
+    },
+    {
+        "name": "SimpleSlash",
+        "id": "rbxassetid://74799600"
+    },
+    {
+        "name": "Random",
+        "id": "rbxassetid://74795459"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://74322484"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://73822388"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://73822179"
+    },
+    {
+        "name": "WalkAnim",
+        "id": "rbxassetid://73257515"
+    },
+    {
+        "name": "bostaff_swing",
+        "id": "rbxassetid://73177718"
+    },
+    {
+        "name": "bostaff_stand",
+        "id": "rbxassetid://73177713"
+    },
+    {
+        "name": "bostaff_spin",
+        "id": "rbxassetid://73177702"
+    },
+    {
+        "name": "ANIM_Equip",
+        "id": "rbxassetid://73148224"
+    },
+    {
+        "name": "ANIM_Drink",
+        "id": "rbxassetid://73148207"
+    },
+    {
+        "name": "ANIM_Screamer",
+        "id": "rbxassetid://73137669"
+    },
+    {
+        "name": "ANIM_Scream",
+        "id": "rbxassetid://73137648"
+    },
+    {
+        "name": "PokeAnim",
+        "id": "rbxassetid://73105825"
+    },
+    {
+        "name": "BlockAnim",
+        "id": "rbxassetid://73102970"
+    },
+    {
+        "name": "SlapAnim",
+        "id": "rbxassetid://73101021"
+    },
+    {
+        "name": "ANIM_WalkShield",
+        "id": "rbxassetid://73033721"
+    },
+    {
+        "name": "ANIM_SlashPower",
+        "id": "rbxassetid://73033705"
+    },
+    {
+        "name": "ANIM_SlashEnd",
+        "id": "rbxassetid://73033682"
+    },
+    {
+        "name": "ANIM_SlashBegin",
+        "id": "rbxassetid://73033669"
+    },
+    {
+        "name": "ANIM_ExitShield",
+        "id": "rbxassetid://73033655"
+    },
+    {
+        "name": "ANIM_Equip",
+        "id": "rbxassetid://73033645"
+    },
+    {
+        "name": "ANIM_EnterShield",
+        "id": "rbxassetid://73033633"
+    },
+    {
+        "name": "ANIM_CharginMa",
+        "id": "rbxassetid://73033590"
+    },
+    {
+        "name": "RageAnim",
+        "id": "rbxassetid://72635723"
+    },
+    {
+        "name": "StabAnim",
+        "id": "rbxassetid://72635328"
+    },
+    {
+        "name": "OtherFiveAnim",
+        "id": "rbxassetid://72632381"
+    },
+    {
+        "name": "OtherFiveAnim",
+        "id": "rbxassetid://72629115"
+    },
+    {
+        "name": "OtherHighFiveAnim",
+        "id": "rbxassetid://72628270"
+    },
+    {
+        "name": "HighFiveAnim",
+        "id": "rbxassetid://72628034"
+    },
+    {
+        "name": "RapidSlash",
+        "id": "rbxassetid://72042387"
+    },
+    {
+        "name": "RapidSlash",
+        "id": "rbxassetid://72042265"
+    },
+    {
+        "name": "RapidSlash",
+        "id": "rbxassetid://72042024"
+    },
+    {
+        "name": "RightSlash",
+        "id": "rbxassetid://72041717"
+    },
+    {
+        "name": "ArrowAnim",
+        "id": "rbxassetid://72041372"
+    },
+    {
+        "name": "RapidFireAnim",
+        "id": "rbxassetid://72041331"
+    },
+    {
+        "name": "RapidFireAnim",
+        "id": "rbxassetid://72041223"
+    },
+    {
+        "name": "ArrowAnim",
+        "id": "rbxassetid://72041163"
+    },
+    {
+        "name": "BowWalk",
+        "id": "rbxassetid://72040689"
+    },
+    {
+        "name": "BowWalk",
+        "id": "rbxassetid://72040604"
+    },
+    {
+        "name": "BiteAnim2",
+        "id": "rbxassetid://71542686"
+    },
+    {
+        "name": "BiteAnim2",
+        "id": "rbxassetid://71542554"
+    },
+    {
+        "name": "ShootAnim",
+        "id": "rbxassetid://71526369"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://71526331"
+    },
+    {
+        "name": "SwordWalkAnim",
+        "id": "rbxassetid://71526265"
+    },
+    {
+        "name": "SwordWalkAnim",
+        "id": "rbxassetid://71526217"
+    },
+    {
+        "name": "ANIM_ShipSummon",
+        "id": "rbxassetid://71446087"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://71410074"
+    },
+    {
+        "name": "WaveSlash2",
+        "id": "rbxassetid://71410058"
+    },
+    {
+        "name": "SwordWalkAnim",
+        "id": "rbxassetid://71410020"
+    },
+    {
+        "name": "SwordHolsterAnim",
+        "id": "rbxassetid://71409978"
+    },
+    {
+        "name": "SwordWalkAnim",
+        "id": "rbxassetid://71409911"
+    },
+    {
+        "name": "WaveSlash",
+        "id": "rbxassetid://71380167"
+    },
+    {
+        "name": "WaveSlash",
+        "id": "rbxassetid://71379944"
+    },
+    {
+        "name": "ThrowAnim",
+        "id": "rbxassetid://71374616"
+    },
+    {
+        "name": "ThrowAnim",
+        "id": "rbxassetid://71374486"
+    },
+    {
+        "name": "SpellAnim",
+        "id": "rbxassetid://71013291"
+    },
+    {
+        "name": "SpellAnim",
+        "id": "rbxassetid://71012636"
+    },
+    {
+        "name": "LampAnim",
+        "id": "rbxassetid://71012326"
+    },
+    {
+        "name": "StopTimeAnim",
+        "id": "rbxassetid://70990857"
+    },
+    {
+        "name": "LungeSlash",
+        "id": "rbxassetid://70989553"
+    },
+    {
+        "name": "Slash2",
+        "id": "rbxassetid://70989448"
+    },
+    {
+        "name": "Slash2",
+        "id": "rbxassetid://70989422"
+    },
+    {
+        "name": "Slash2",
+        "id": "rbxassetid://70989413"
+    },
+    {
+        "name": "Slash2",
+        "id": "rbxassetid://70989390"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://70989354"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://70989344"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://70989331"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://70989302"
+    },
+    {
+        "name": "ScimitarWalk",
+        "id": "rbxassetid://70989227"
+    },
+    {
+        "name": "ANIM_Hold",
+        "id": "rbxassetid://70439247"
+    },
+    {
+        "name": "ANIM_Drink",
+        "id": "rbxassetid://70439232"
+    },
+    {
+        "name": "BreakAnim",
+        "id": "rbxassetid://69968304"
+    },
+    {
+        "name": "BreakAnim",
+        "id": "rbxassetid://69967893"
+    },
+    {
+        "name": "ThrowAnim",
+        "id": "rbxassetid://69932631"
+    },
+    {
+        "name": "ThrowAnim",
+        "id": "rbxassetid://69932559"
+    },
+    {
+        "name": "ThrowAnim",
+        "id": "rbxassetid://69932360"
+    },
+    {
+        "name": "HoldAnim",
+        "id": "rbxassetid://69929615"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://69929547"
+    },
+    {
+        "name": "EquipAnim",
+        "id": "rbxassetid://69929281"
+    },
+    {
+        "name": "ANIM_SpearStab",
+        "id": "rbxassetid://69803991"
+    },
+    {
+        "name": "ANIM_SpearEquip",
+        "id": "rbxassetid://69803982"
+    },
+    {
+        "name": "ANIM_SpearCheck",
+        "id": "rbxassetid://69803972"
+    },
+    {
+        "name": "ANIM_SpearCharge",
+        "id": "rbxassetid://69803963"
+    },
+    {
+        "name": "ShieldBash",
+        "id": "rbxassetid://69501108"
+    },
+    {
+        "name": "ShieldWalk",
+        "id": "rbxassetid://69500926"
+    },
+    {
+        "name": "ANIM_SpotWeldFire",
+        "id": "rbxassetid://69427271"
+    },
+    {
+        "name": "ANIM_SpotWeldEquip",
+        "id": "rbxassetid://69427262"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://68484336"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://68454049"
+    },
+    {
+        "name": "HoldAnim",
+        "id": "rbxassetid://68453984"
+    },
+    {
+        "name": "HoldAnim",
+        "id": "rbxassetid://68453976"
+    },
+    {
+        "name": "ANIM_SentryFire2",
+        "id": "rbxassetid://68433974"
+    },
+    {
+        "name": "ANIM_SentryUnfold2",
+        "id": "rbxassetid://68433924"
+    },
+    {
+        "name": "SwordWalk",
+        "id": "rbxassetid://68387894"
+    },
+    {
+        "name": "SwordWalk",
+        "id": "rbxassetid://68387779"
+    },
+    {
+        "name": "UnfoldAnim",
+        "id": "rbxassetid://68387734"
+    },
+    {
+        "name": "ANIM_SentryFire",
+        "id": "rbxassetid://68339848"
+    },
+    {
+        "name": "ANIM_SentryUnfold",
+        "id": "rbxassetid://68339819"
+    },
+    {
+        "name": "GlobeAnim",
+        "id": "rbxassetid://66875382"
+    },
+    {
+        "name": "SwordCritDown",
+        "id": "rbxassetid://66703957"
+    },
+    {
+        "name": "SwordCritDown",
+        "id": "rbxassetid://66703954"
+    },
+    {
+        "name": "SwordCritUp",
+        "id": "rbxassetid://66703241"
+    },
+    {
+        "name": "SwordCrit",
+        "id": "rbxassetid://66703223"
+    },
+    {
+        "name": "SwordSlash",
+        "id": "rbxassetid://66702758"
+    },
+    {
+        "name": "SwordEquip",
+        "id": "rbxassetid://66702743"
+    },
+    {
+        "name": "SwordCrit",
+        "id": "rbxassetid://66702722"
+    },
+    {
+        "name": "SwordCritDown",
+        "id": "rbxassetid://66702704"
+    },
+    {
+        "name": "SwordCritDown",
+        "id": "rbxassetid://66338177"
+    },
+    {
+        "name": "SwordSlash",
+        "id": "rbxassetid://66332008"
+    },
+    {
+        "name": "SwordEquip",
+        "id": "rbxassetid://66331528"
+    },
+    {
+        "name": "SmashAnim",
+        "id": "rbxassetid://65067813"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://63718551"
+    },
+    {
+        "name": "ShieldBash",
+        "id": "rbxassetid://63234156"
+    },
+    {
+        "name": "ShieldBash",
+        "id": "rbxassetid://63233998"
+    },
+    {
+        "name": "HoldAnim",
+        "id": "rbxassetid://62323186"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://62319409"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://62319324"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://62319089"
+    },
+    {
+        "name": "DrinkAnim",
+        "id": "rbxassetid://61914540"
+    },
+    {
+        "name": "DrinkAnim",
+        "id": "rbxassetid://61914291"
+    },
+    {
+        "name": "InfuseAnim",
+        "id": "rbxassetid://61887471"
+    },
+    {
+        "name": "InfuseAnim",
+        "id": "rbxassetid://61887373"
+    },
+    {
+        "name": "DaggerSlashAnim",
+        "id": "rbxassetid://61771447"
+    },
+    {
+        "name": "DaggerSlash",
+        "id": "rbxassetid://61771376"
+    },
+    {
+        "name": "DaggerWalk",
+        "id": "rbxassetid://61771068"
+    },
+    {
+        "name": "SlamAnim",
+        "id": "rbxassetid://61444247"
+    },
+    {
+        "name": "SlamAnim",
+        "id": "rbxassetid://61441664"
+    },
+    {
+        "name": "SlamAnim",
+        "id": "rbxassetid://61441403"
+    },
+    {
+        "name": "ScrollAnim",
+        "id": "rbxassetid://60886735"
+    },
+    {
+        "name": "ChargeKickAnim",
+        "id": "rbxassetid://60883237"
+    },
+    {
+        "name": "FlashKickAnim",
+        "id": "rbxassetid://60882887"
+    },
+    {
+        "name": "SpinAnim",
+        "id": "rbxassetid://60816404"
+    },
+    {
+        "name": "SpinAnim",
+        "id": "rbxassetid://60816255"
+    },
+    {
+        "name": "SliceAnim",
+        "id": "rbxassetid://60814208"
+    },
+    {
+        "name": "StiltWalkAnim",
+        "id": "rbxassetid://60355819"
+    },
+    {
+        "name": "StiltWalkAnim",
+        "id": "rbxassetid://60350516"
+    },
+    {
+        "name": "StiltWalk",
+        "id": "rbxassetid://60349575"
+    },
+    {
+        "name": "LungeAnim",
+        "id": "rbxassetid://60337352"
+    },
+    {
+        "name": "GuitarAnim",
+        "id": "rbxassetid://60333009"
+    },
+    {
+        "name": "GuitarAnim",
+        "id": "rbxassetid://60332754"
+    },
+    {
+        "name": "BowAnim",
+        "id": "rbxassetid://59774026"
+    },
+    {
+        "name": "VolleyballServe",
+        "id": "rbxassetid://57866879"
+    },
+    {
+        "name": "VolleyballHit",
+        "id": "rbxassetid://57862093"
+    },
+    {
+        "name": "RightBongoHighHit",
+        "id": "rbxassetid://57804902"
+    },
+    {
+        "name": "RightBongoLowHit",
+        "id": "rbxassetid://57804892"
+    },
+    {
+        "name": "LeftBongoHighHit",
+        "id": "rbxassetid://57804876"
+    },
+    {
+        "name": "LeftBongoLowHit",
+        "id": "rbxassetid://57804853"
+    },
+    {
+        "name": "RightBongoLowHit",
+        "id": "rbxassetid://57804331"
+    },
+    {
+        "name": "RightBongoHighHit",
+        "id": "rbxassetid://57796095"
+    },
+    {
+        "name": "LeftBongoHighHit",
+        "id": "rbxassetid://57795745"
+    },
+    {
+        "name": "LeftBongoLowHit",
+        "id": "rbxassetid://57795448"
+    },
+    {
+        "name": "RightBongoLowHit",
+        "id": "rbxassetid://57795241"
+    },
+    {
+        "name": "ReadyBongos",
+        "id": "rbxassetid://57794492"
+    },
+    {
+        "name": "ReadyBongos",
+        "id": "rbxassetid://57793026"
+    },
+    {
+        "name": "Lick",
+        "id": "rbxassetid://57720291"
+    },
+    {
+        "name": "JuiceAnim",
+        "id": "rbxassetid://57224942"
+    },
+    {
+        "name": "PotionAnim",
+        "id": "rbxassetid://56510834"
+    },
+    {
+        "name": "CannonDown",
+        "id": "rbxassetid://56153856"
+    },
+    {
+        "name": "CannonUp",
+        "id": "rbxassetid://56146409"
+    },
+    {
+        "name": "HoldAnim",
+        "id": "rbxassetid://55913910"
+    },
+    {
+        "name": "ArrowAnim",
+        "id": "rbxassetid://55911435"
+    },
+    {
+        "name": "GetGuitarReady",
+        "id": "rbxassetid://55791352"
+    },
+    {
+        "name": "Strum",
+        "id": "rbxassetid://55791140"
+    },
+    {
+        "name": "GetGuitarReady",
+        "id": "rbxassetid://55790104"
+    },
+    {
+        "name": "GetGuitarReady",
+        "id": "rbxassetid://55789969"
+    },
+    {
+        "name": "GetGuitarReady",
+        "id": "rbxassetid://55789536"
+    },
+    {
+        "name": "Strum",
+        "id": "rbxassetid://55786615"
+    },
+    {
+        "name": "AxeThrow",
+        "id": "rbxassetid://55696748"
+    },
+    {
+        "name": "AxeThrow",
+        "id": "rbxassetid://55630898"
+    },
+    {
+        "name": "Drink",
+        "id": "rbxassetid://55306564"
+    },
+    {
+        "name": "WaveAnim",
+        "id": "rbxassetid://55270038"
+    },
+    {
+        "name": "WaveAnim",
+        "id": "rbxassetid://55269906"
+    },
+    {
+        "name": "WaveAnim",
+        "id": "rbxassetid://55269680"
+    },
+    {
+        "name": "WaveAnim",
+        "id": "rbxassetid://55269454"
+    },
+    {
+        "name": "TorchHold",
+        "id": "rbxassetid://55267396"
+    },
+    {
+        "name": "Throw",
+        "id": "rbxassetid://55199506"
+    },
+    {
+        "name": "PullBack",
+        "id": "rbxassetid://55199152"
+    },
+    {
+        "name": "StaffThud",
+        "id": "rbxassetid://55054465"
+    },
+    {
+        "name": "StaffThud",
+        "id": "rbxassetid://55043896"
+    },
+    {
+        "name": "BaseballSwing",
+        "id": "rbxassetid://55020435"
+    },
+    {
+        "name": "StaffThud",
+        "id": "rbxassetid://54984748"
+    },
+    {
+        "name": "StickWhack",
+        "id": "rbxassetid://54933576"
+    },
+    {
+        "name": "PumpAnim",
+        "id": "rbxassetid://54700976"
+    },
+    {
+        "name": "PumpAnim",
+        "id": "rbxassetid://54700872"
+    },
+    {
+        "name": "PumpAnim",
+        "id": "rbxassetid://54700219"
+    },
+    {
+        "name": "PumpAnim",
+        "id": "rbxassetid://54699757"
+    },
+    {
+        "name": "PumpAnimation",
+        "id": "rbxassetid://54698510"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://54673790"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://54672378"
+    },
+    {
+        "name": "WaveAnim",
+        "id": "rbxassetid://54672068"
+    },
+    {
+        "name": "WaveAnim",
+        "id": "rbxassetid://54671810"
+    },
+    {
+        "name": "RightSlash",
+        "id": "rbxassetid://54611484"
+    },
+    {
+        "name": "RightSlash",
+        "id": "rbxassetid://54610595"
+    },
+    {
+        "name": "RightSlash",
+        "id": "rbxassetid://54610198"
+    },
+    {
+        "name": "Bonesaw",
+        "id": "rbxassetid://54605944"
+    },
+    {
+        "name": "Bonesaw",
+        "id": "rbxassetid://54603604"
+    },
+    {
+        "name": "SpikesToFace",
+        "id": "rbxassetid://54601051"
+    },
+    {
+        "name": "SlashNStabAttempt2",
+        "id": "rbxassetid://54584713"
+    },
+    {
+        "name": "LONGRageTest",
+        "id": "rbxassetid://54513258"
+    },
+    {
+        "name": "DragonSwordRage",
+        "id": "rbxassetid://54504034"
+    },
+    {
+        "name": "DragonSwordCharge",
+        "id": "rbxassetid://54456096"
+    },
+    {
+        "name": "DragonSwordCharge",
+        "id": "rbxassetid://54455465"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://54432537"
+    },
+    {
+        "name": "SlashNStabAttempt1",
+        "id": "rbxassetid://54430893"
+    },
+    {
+        "name": "SlashNStabAttempt1",
+        "id": "rbxassetid://54428981"
+    },
+    {
+        "name": "PaperToSword",
+        "id": "rbxassetid://54371014"
+    },
+    {
+        "name": "SwordToPaper",
+        "id": "rbxassetid://54366612"
+    },
+    {
+        "name": "Test1",
+        "id": "rbxassetid://54145508"
+    },
+    {
+        "name": "TakeThat",
+        "id": "rbxassetid://54144767"
+    },
+    {
+        "name": "KeyframeSequence",
+        "id": "rbxassetid://54144120"
+    },
+    {
+        "name": "StabAnim",
+        "id": "rbxassetid://54124170"
+    },
+    {
+        "name": "StabAnim",
+        "id": "rbxassetid://54123838"
+    },
+    {
+        "name": "StabAnim",
+        "id": "rbxassetid://54121922"
+    },
+    {
+        "name": "QuakeAnim",
+        "id": "rbxassetid://54120929"
+    },
+    {
+        "name": "FastSlash",
+        "id": "rbxassetid://54001660"
+    },
+    {
+        "name": "StalkAnim",
+        "id": "rbxassetid://53610688"
+    },
+    {
+        "name": "RaiseAnim",
+        "id": "rbxassetid://53590611"
+    },
+    {
+        "name": "JudgeAnim",
+        "id": "rbxassetid://53587901"
+    },
+    {
+        "name": "BallAnim",
+        "id": "rbxassetid://52618343"
+    },
+    {
+        "name": "GuitarAnim",
+        "id": "rbxassetid://52602039"
+    },
+    {
+        "name": "Test",
+        "id": "rbxassetid://52414165"
+    },
+    {
+        "name": "HackyAnim",
+        "id": "rbxassetid://52180307"
+    },
+    {
+        "name": "HackyAnim",
+        "id": "rbxassetid://52174217"
+    },
+    {
+        "name": "HackyAnim",
+        "id": "rbxassetid://52173754"
+    },
+    {
+        "name": "FluteDance",
+        "id": "rbxassetid://52155728"
+    },
+    {
+        "name": "FluteDance",
+        "id": "rbxassetid://52155014"
+    },
+    {
+        "name": "Flute",
+        "id": "rbxassetid://52154760"
+    },
+    {
+        "name": "BracerBash",
+        "id": "rbxassetid://51753804"
+    },
+    {
+        "name": "DualSlash",
+        "id": "rbxassetid://51343632"
+    },
+    {
+        "name": "Battojutsu",
+        "id": "rbxassetid://51343043"
+    },
+    {
+        "name": "Battojutsu",
+        "id": "rbxassetid://51342576"
+    },
+    {
+        "name": "SaiSlash",
+        "id": "rbxassetid://51335610"
+    },
+    {
+        "name": "Blow",
+        "id": "rbxassetid://51334984"
+    },
+    {
+        "name": "Blow",
+        "id": "rbxassetid://51333396"
+    },
+    {
+        "name": "Battojutsu",
+        "id": "rbxassetid://51298927"
+    },
+    {
+        "name": "Battojutsu",
+        "id": "rbxassetid://51289487"
+    },
+    {
+        "name": "QuickSlash",
+        "id": "rbxassetid://51158666"
+    },
+    {
+        "name": "Load",
+        "id": "rbxassetid://51158587"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://50930931"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://50248790"
+    },
+    {
+        "name": "SlashAnim",
+        "id": "rbxassetid://50248690"
+    },
+    {
+        "name": "ShieldBash",
+        "id": "rbxassetid://49907410"
+    },
+    {
+        "name": "ClubSlam",
+        "id": "rbxassetid://49903664"
+    },
+    {
+        "name": "ClubSlam",
+        "id": "rbxassetid://49903583"
+    },
+    {
+        "name": "AxeSlash",
+        "id": "rbxassetid://49901608"
+    },
+    {
+        "name": "ArrowAnim",
+        "id": "rbxassetid://49869672"
+    },
+    {
+        "name": "ArrowAnim",
+        "id": "rbxassetid://49869442"
+    },
+    {
+        "name": "BowWalk",
+        "id": "rbxassetid://49867748"
+    },
+    {
+        "name": "ShieldBash",
+        "id": "rbxassetid://49818454"
+    },
+    {
+        "name": "QuickSlash",
+        "id": "rbxassetid://49815113"
+    },
+    {
+        "name": "ShieldWalk",
+        "id": "rbxassetid://49763871"
+    },
+    {
+        "name": "Zombie2",
+        "id": "rbxassetid://49486651"
+    },
+    {
+        "name": "WandAnim",
+        "id": "rbxassetid://49480570"
+    },
+    {
+        "name": "LightStaffAnim",
+        "id": "rbxassetid://49457126"
+    },
+    {
+        "name": "BookAnim",
+        "id": "rbxassetid://49456429"
+    },
+    {
+        "name": "FireStaffAnim",
+        "id": "rbxassetid://49456190"
+    },
+    {
+        "name": "otherran",
+        "id": "rbxassetid://48977338"
+    },
+    {
+        "name": "random",
+        "id": "rbxassetid://48977286"
+    },
+    {
+        "name": "HorseRide",
+        "id": "rbxassetid://48975505"
+    },
+    {
+        "name": "WalkHorse",
+        "id": "rbxassetid://48972923"
+    },
+    {
+        "name": "RandHand",
+        "id": "rbxassetid://48972693"
+    },
+    {
+        "name": "randHand",
+        "id": "rbxassetid://48972562"
+    },
+    {
+        "name": "HorseWalk",
+        "id": "rbxassetid://48957148"
+    },
+    {
+        "name": "HorseRide",
+        "id": "rbxassetid://48955555"
+    },
+    {
+        "name": "DualWalk",
+        "id": "rbxassetid://48885707"
+    },
+    {
+        "name": "dualWalk",
+        "id": "rbxassetid://48885239"
+    },
+    {
+        "name": "ForceStaffAnim",
+        "id": "rbxassetid://48534664"
+    },
+    {
+        "name": "ForceStaffAnim",
+        "id": "rbxassetid://48534374"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://48146488"
+    },
+    {
+        "name": "DualSlash",
+        "id": "rbxassetid://48146273"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://48145782"
+    },
+    {
+        "name": "TwoHandedSlash",
+        "id": "rbxassetid://48138856"
+    },
+    {
+        "name": "TwoHandedSlash",
+        "id": "rbxassetid://48138535"
+    },
+    {
+        "name": "TwoHandAnim",
+        "id": "rbxassetid://48138189"
+    },
+    {
+        "name": "twoHandAnim",
+        "id": "rbxassetid://48137861"
+    },
+    {
+        "name": "PirateSlash",
+        "id": "rbxassetid://48108208"
+    },
+    {
+        "name": "PirateSlash",
+        "id": "rbxassetid://48088514"
+    },
+    {
+        "name": "PirateSlash",
+        "id": "rbxassetid://48082850"
+    },
+    {
+        "name": "ShadowLunge",
+        "id": "rbxassetid://48051381"
+    },
+    {
+        "name": "KnightAnim",
+        "id": "rbxassetid://48034501"
+    },
+    {
+        "name": "initiateCloneAnim",
+        "id": "rbxassetid://47919724"
+    },
+    {
+        "name": "Tuba",
+        "id": "rbxassetid://47700095"
+    },
+    {
+        "name": "GuitarAnim",
+        "id": "rbxassetid://47675791"
+    },
+    {
+        "name": "Tuba",
+        "id": "rbxassetid://47594746"
+    },
+    {
+        "name": "Tuba",
+        "id": "rbxassetid://47594199"
+    },
+    {
+        "name": "ChakraThrow",
+        "id": "rbxassetid://47277200"
+    },
+    {
+        "name": "StaffTaunt",
+        "id": "rbxassetid://46785765"
+    },
+    {
+        "name": "StaffTaunt",
+        "id": "rbxassetid://46782694"
+    },
+    {
+        "name": "StaffSlash",
+        "id": "rbxassetid://46756384"
+    },
+    {
+        "name": "StaffLunge",
+        "id": "rbxassetid://46755449"
+    },
+    {
+        "name": "StaffSpin6",
+        "id": "rbxassetid://46754911"
+    },
+    {
+        "name": "StaffSpin5",
+        "id": "rbxassetid://46730700"
+    },
+    {
+        "name": "StaffSpin5",
+        "id": "rbxassetid://46730574"
+    },
+    {
+        "name": "StaffSpin5",
+        "id": "rbxassetid://46730431"
+    },
+    {
+        "name": "StaffSpin5",
+        "id": "rbxassetid://46729660"
+    },
+    {
+        "name": "StaffSpin4",
+        "id": "rbxassetid://46729357"
+    },
+    {
+        "name": "StaffSpin",
+        "id": "rbxassetid://46728771"
+    },
+    {
+        "name": "StaffSpin2",
+        "id": "rbxassetid://46728251"
+    },
+    {
+        "name": "StaffSwing",
+        "id": "rbxassetid://46727778"
+    },
+    {
+        "name": "StaffTaunt",
+        "id": "rbxassetid://46700863"
+    },
+    {
+        "name": "StaffSwing",
+        "id": "rbxassetid://46672869"
+    },
+    {
+        "name": "PenguinSlide",
+        "id": "rbxassetid://46333678"
+    },
+    {
+        "name": "AxeSpin",
+        "id": "rbxassetid://46286122"
+    },
+    {
+        "name": "Swing",
+        "id": "rbxassetid://46277580"
+    },
+    {
+        "name": "PenguinJump",
+        "id": "rbxassetid://46196309"
+    },
+    {
+        "name": "PenguinWalk",
+        "id": "rbxassetid://46196182"
+    },
+    {
+        "name": "Throw",
+        "id": "rbxassetid://46182987"
+    },
+    {
+        "name": "Whack",
+        "id": "rbxassetid://46151856"
+    },
+    {
+        "name": "Whack",
+        "id": "rbxassetid://46150387"
+    },
+    {
+        "name": "StabAnim",
+        "id": "rbxassetid://45914822"
+    },
+    {
+        "name": "StabAnim",
+        "id": "rbxassetid://45914787"
+    },
+    {
+        "name": "SideSlash",
+        "id": "rbxassetid://45913583"
+    },
+    {
+        "name": "SideSlash",
+        "id": "rbxassetid://45912348"
+    },
+    {
+        "name": "NinjaSlash",
+        "id": "rbxassetid://45873069"
+    },
+    {
+        "name": "disco2",
+        "id": "rbxassetid://45834924"
+    },
+    {
+        "name": "disco1",
+        "id": "rbxassetid://45832220"
+    },
+    {
+        "name": "NinjaDash",
+        "id": "rbxassetid://45828430"
+    },
+    {
+        "name": "RHK2",
+        "id": "rbxassetid://45738282"
+    },
+    {
+        "name": "RHK2",
+        "id": "rbxassetid://45737360"
+    },
+    {
+        "name": "RHK",
+        "id": "rbxassetid://45733005"
+    },
+    {
+        "name": "BeatBox",
+        "id": "rbxassetid://45504977"
+    },
+    {
+        "name": "BeatBox",
+        "id": "rbxassetid://45489307"
+    },
+    {
+        "name": "testarmthing",
+        "id": "rbxassetid://45338022"
+    },
+    {
+        "name": "sledgehammer3",
+        "id": "rbxassetid://45080940"
+    },
+    {
+        "name": "sledgehammer2",
+        "id": "rbxassetid://45069652"
+    },
+    {
+        "name": "sledgehammer1",
+        "id": "rbxassetid://45069150"
+    },
+    {
+        "name": "SaxNoLoop",
+        "id": "rbxassetid://45039374"
+    },
+    {
+        "name": "Saxaphone",
+        "id": "rbxassetid://45036843"
+    },
+    {
+        "name": "DL",
+        "id": "rbxassetid://44448662"
+    },
+    {
+        "name": "DR",
+        "id": "rbxassetid://44448657"
+    },
+    {
+        "name": "M",
+        "id": "rbxassetid://44448652"
+    },
+    {
+        "name": "UR",
+        "id": "rbxassetid://44448649"
+    },
+    {
+        "name": "testHold",
+        "id": "rbxassetid://44420071"
+    },
+    {
+        "name": "downLeftTest",
+        "id": "rbxassetid://44418684"
+    },
+    {
+        "name": "downrightTest",
+        "id": "rbxassetid://44418501"
+    },
+    {
+        "name": "upleftTest",
+        "id": "rbxassetid://44418205"
+    },
+    {
+        "name": "xswordfast3",
+        "id": "rbxassetid://42071652"
+    },
+    {
+        "name": "pitchfork",
+        "id": "rbxassetid://42071649"
+    },
+    {
+        "name": "bookfit",
+        "id": "rbxassetid://42071644"
+    },
+    {
+        "name": "bookrip",
+        "id": "rbxassetid://42071639"
+    },
+    {
+        "name": "holdbook",
+        "id": "rbxassetid://42071635"
+    },
+    {
+        "name": "tornbookhold",
+        "id": "rbxassetid://42071631"
+    },
+    {
+        "name": "pitchfork",
+        "id": "rbxassetid://42071626"
+    },
+    {
+        "name": "pitchfork",
+        "id": "rbxassetid://42070871"
+    },
+    {
+        "name": "wereslash2",
+        "id": "rbxassetid://42070834"
+    },
+    {
+        "name": "wereslash1",
+        "id": "rbxassetid://42070830"
+    },
+    {
+        "name": "werelefthandhold",
+        "id": "rbxassetid://42070828"
+    },
+    {
+        "name": "werewolfcurl",
+        "id": "rbxassetid://42070810"
+    },
+    {
+        "name": "xswordfast3",
+        "id": "rbxassetid://41805839"
+    },
+    {
+        "name": "wandswing1",
+        "id": "rbxassetid://35978913"
+    },
+    {
+        "name": "xsword1",
+        "id": "rbxassetid://35978879"
+    },
+    {
+        "name": "monstermash2",
+        "id": "rbxassetid://35654637"
+    },
+    {
+        "name": "monstermash",
+        "id": "rbxassetid://35634514"
+    },
+    {
+        "name": "headthrow",
+        "id": "rbxassetid://35154961"
+    },
+    {
+        "name": "boardkick",
+        "id": "rbxassetid://35152447"
+    },
+    {
+        "name": "kickback",
+        "id": "rbxassetid://33855276"
+    },
+    {
+        "name": "partyanim",
+        "id": "rbxassetid://33796059"
+    },
+    {
+        "name": "kickback",
+        "id": "rbxassetid://33686061"
+    },
+    {
+        "name": "launchhand",
+        "id": "rbxassetid://33323745"
+    },
+    {
+        "name": "slingshot",
+        "id": "rbxassetid://33248324"
+    },
+    {
+        "name": "chop",
+        "id": "rbxassetid://33169596"
+    },
+    {
+        "name": "chainsawswing",
+        "id": "rbxassetid://33169583"
+    },
+    {
+        "name": "gravityslam",
+        "id": "rbxassetid://33169573"
+    },
+    {
+        "name": "hornblow",
+        "id": "rbxassetid://32729592"
+    },
+    {
+        "name": "twohandswordwithswingout",
+        "id": "rbxassetid://32659706"
+    },
+    {
+        "name": "swordthrust",
+        "id": "rbxassetid://32659703"
+    },
+    {
+        "name": "swordswingjump",
+        "id": "rbxassetid://32659699"
+    },
+    {
+        "name": "firewall",
+        "id": "rbxassetid://32326246"
+    },
+    {
+        "name": "firering",
+        "id": "rbxassetid://32326245"
+    },
+    {
+        "name": "firecast",
+        "id": "rbxassetid://32326240"
+    },
+    {
+        "name": "wandcast",
+        "id": "rbxassetid://31665427"
+    },
+    {
+        "name": "rocketkickback",
+        "id": "rbxassetid://31617132"
+    },
+    {
+        "name": "rocketreload",
+        "id": "rbxassetid://31617128"
+    },
+    {
+        "name": "standstill",
+        "id": "rbxassetid://31319431"
+    },
+    {
+        "name": "barrelthrow",
+        "id": "rbxassetid://31020869"
+    },
+    {
+        "name": "tridentthrow",
+        "id": "rbxassetid://30704030"
+    },
+    {
+        "name": "tridentstab",
+        "id": "rbxassetid://30704021"
+    },
+    {
+        "name": "saxtest",
+        "id": "rbxassetid://30257281"
+    },
+    {
+        "name": "smellyrun",
+        "id": "rbxassetid://30235165"
+    },
+    {
+        "name": "moonwalk",
+        "id": "rbxassetid://30196114"
+    },
+    {
+        "name": "throwfrombag",
+        "id": "rbxassetid://30188122"
+    },
+    {
+        "name": "throwfrombag",
+        "id": "rbxassetid://30174375"
+    },
+    {
+        "name": "drink",
+        "id": "rbxassetid://29517689"
+    },
+    {
+        "name": "hornblow",
+        "id": "rbxassetid://29349343"
+    },
+    {
+        "name": "hornblow",
+        "id": "rbxassetid://29095196"
+    },
+    {
+        "name": "throw",
+        "id": "rbxassetid://28604759"
+    },
+    {
+        "name": "soccerkick",
+        "id": "rbxassetid://28458752"
+    },
+    {
+        "name": "socceridle",
+        "id": "rbxassetid://28442712"
+    },
+    {
+        "name": "soccerwalk",
+        "id": "rbxassetid://28440069"
+    },
+    {
+        "name": "uppercut",
+        "id": "rbxassetid://28160593"
+    },
+    {
+        "name": "punch",
+        "id": "rbxassetid://28159255"
+    },
+    {
+        "name": "punch",
+        "id": "rbxassetid://28156501"
+    },
+    {
+        "name": "punch",
+        "id": "rbxassetid://28156406"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://28090109"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://28090085"
+    },
+    {
+        "name": "Slash",
+        "id": "rbxassetid://28090053"
+    },
+    {
+        "name": "dance",
+        "id": "rbxassetid://27789359"
+    },
+    {
+        "name": "staffspin",
+        "id": "rbxassetid://27763939"
+    },
+    {
+        "name": "staffdoublehit",
+        "id": "rbxassetid://27763344"
+    },
+    {
+        "name": "staffswingleft",
+        "id": "rbxassetid://27762691"
+    },
+    {
+        "name": "swingright",
+        "id": "rbxassetid://27761962"
+    },
+    {
+        "name": "staffstrike",
+        "id": "rbxassetid://27761123"
+    },
+    {
+        "name": "staffstrike",
+        "id": "rbxassetid://27760992"
+    },
+    {
+        "name": "walkstaff",
+        "id": "rbxassetid://27759788"
+    },
+    {
+        "name": "walkstaff",
+        "id": "rbxassetid://27759675"
+    },
+    {
+        "name": "walkstaff",
+        "id": "rbxassetid://27759319"
+    },
+    {
+        "name": "holdstaff",
+        "id": "rbxassetid://27758613"
+    },
+    {
+        "name": "staffswingleft",
+        "id": "rbxassetid://27753183"
+    },
+    {
+        "name": "staffswingright",
+        "id": "rbxassetid://27751170"
+    },
+    {
+        "name": "idlewalk",
+        "id": "rbxassetid://27750069"
+    },
+    {
+        "name": "idlewalk",
+        "id": "rbxassetid://27745526"
+    },
+    {
+        "name": "staffidle",
+        "id": "rbxassetid://27744947"
+    },
+    {
+        "name": "staffstandardswing",
+        "id": "rbxassetid://27741468"
+    },
+    {
+        "name": "bigtwohandhit",
+        "id": "rbxassetid://27441775"
+    },
+    {
+        "name": "staffup",
+        "id": "rbxassetid://27432691"
+    },
+    {
+        "name": "staffout",
+        "id": "rbxassetid://27432686"
+    },
+    {
+        "name": "twohandedswordhit",
+        "id": "rbxassetid://27432559"
+    },
+    {
+        "name": "twohandedswordhit",
+        "id": "rbxassetid://27431613"
+    },
+    {
+        "name": "twohandedswordhit",
+        "id": "rbxassetid://27431302"
+    },
+    {
+        "name": "coastingpose",
+        "id": "rbxassetid://21698666"
+    },
+    {
+        "name": "rightturn",
+        "id": "rbxassetid://21633130"
+    },
+    {
+        "name": "leftturn",
+        "id": "rbxassetid://21632926"
+    },
+    {
+        "name": "boardkick",
+        "id": "rbxassetid://21417802"
+    }
+]
